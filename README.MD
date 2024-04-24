@@ -1,3 +1,3 @@
 ### Hello, World! 👋
 
-Full time senior Apple devices developer, part time 2D indie game developer and development trainer project at Udemy.
+Senior Apple devices developer, developer trainer project at Udemy, part time indie game developer, content creator about my indie game developments on YouTube.
