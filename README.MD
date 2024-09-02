@@ -2,7 +2,7 @@
 
 ### Hello, World! 👋
 
-Senior Apple devices developer, developer trainer project at Udemy, part time indie game developer, content creator about my indie game developments on YouTube.
+👨🏻‍💻 Senior developer for Apple devices | 👾 part-time indie game developer at home | 📽️ sometimes I post videos about development to Udemy and YouTube.
 
 ## Credits
 Portfolio author: Prerak Raja
