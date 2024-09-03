@@ -4,9 +4,6 @@
 
 👨🏻‍💻 Senior developer for Apple devices | 👾 part-time indie game developer at home | 📽️ sometimes I post videos about development to Udemy and YouTube.
 
-## Credits
-Portfolio author: Prerak Raja
-
 ## License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
