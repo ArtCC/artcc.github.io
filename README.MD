@@ -2,4 +2,4 @@
 
 ### Hello, World! 👋
 
-👨🏻‍💻 Senior developer for Apple devices | 👾 part-time indie game developer at home | 📽️ sometimes I post videos about development to Udemy and YouTube.
+👨🏻‍💻 Developer for Apple devices | 👾 Part-time indie game dev at home | 📽️ Occasionally post development videos on Udemy and YouTube | 🤿 Scuba diver
