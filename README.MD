@@ -1,4 +1,4 @@
-<p><img src="https://pbs.twimg.com/profile_banners/1735332356255330304/1725463365/1500x500"></p>
+<p><img src="https://github.com/ArtCC/artcc.github.io/blob/main/assets/setup.jpeg" height="500"></p>
 
 ### Hello, World! 👋
 
