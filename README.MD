@@ -31,3 +31,11 @@
 </div>
 
 ###
+
+## License
+
+[Apache License](LICENSE)
+
+---
+
+**Arturo Carretero Calvo - 2025**

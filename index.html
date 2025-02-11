@@ -1,521 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arturo Carretero Calvo</title>
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+        margin: 0;
+        transition: background-color 0.3s, color 0.3s;
+        background-color: #ffffff;
+        color: #333333;
+      }
+
+      h2 {
+        text-align: left;
+        color: inherit;
+      }
+
+      h3 {
+        color: inherit;
+      }
+
+      a {
+        text-decoration: none;
+        color: #002147;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+      }
+
+      .texto {
+        margin-top: 20px;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 500;
+      }
+
+      .link-image {
+        margin-top: 20px;
+      }
+
+      .link-image img {
+        width: 200px;
+        height: 80px;
+        object-fit: contain;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #1a1a1a;
+          color: #e4e4e4;
+        }
+
+        a {
+          color: #335D92;
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        body {
+          background-color: #ffffff;
+          color: #333333;
+        }
+
+        a {
+          color: #002147;
+        }
+      }
+    </style>
   </head>
   <body>
-    <main>
-      <aside class="sidebar active" data-sidebar>
-        <div class="sidebar-info">
-          <img src="./assets/my-avatar.png" alt="Arturo Carretero Calvo" width="150" />
-          <div class="info-content">
-            <h1 class="name" title="Arturo Carretero">Arturo Carretero</h1>
-            <h1 class="lastname" title="Calvo">Calvo</h1>
-            <p class="title">Senior Apple developer</p>
-          </div>
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
-        </div>
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
-                <address>Madrid, Spain</address>
-              </div>
-            </li>
-          </ul>
-          <div class="separator"></div>
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="https://www.github.com/artcc" target="_blank" title="GitHub" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="https://www.linkedin.com/in/artcc" target="_blank" title="LinkedIn" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="https://www.x.com/_artcc_" target="_blank" title="X" class="social-link">
-                <img src="assets/twitter-alt.svg" alt="X" width="16" height="16">
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="https://www.udemy.com/user/arturo76" target="_blank" title="Udemy" class="social-link">
-                <ion-icon name="desktop-outline"></ion-icon>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="https://www.youtube.com/@_artcc_" target="_blank" title="YouTube" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
-      <div class="main-content">
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
-          </ul>
-        </nav>
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
-          <section class="about-text">
-            <p>Senior developer for Apple devices since 2010 from Madrid, Spain.</p>
-            <p>Over the years, I have continued to update and expand my knowledge in other languages and technologies, although my main focus remains native development using Objective-C and Swift (UIKit and SwiftUI) as programming languages.</p>
-            <p>In addition to my experience in software development, I also possess skills in managing technical teams and projects, as well as experience in using continuous integration platforms for application deployment and testing, applying design patterns, and Clean Code architectures in project development.</p>
-            <p>In my free time, I learn about game development with Unity, and I might upload videos about development to Udemy and YouTube.</p>
-          </section>
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/mobile-notch.svg" alt="Mobile apps development" width="50" />
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Mobile apps development</h4>
-                  <p class="service-item-text">Professional development of applications for Apple devices. </p>
-                </div>
-              </li>
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/document.svg" alt="Project manager" width="50" />
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Project manager</h4>
-                  <p class="service-item-text">Experience in project and team management.</p>
-                </div>
-              </li>
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/console-controller.svg" alt="Game development" width="50" />
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Game development.</h4>
-                  <p class="service-item-text">I'm trying to become an indie game developer with Unity. </p>
-                </div>
-              </li>
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/e-learning.svg" alt="Development courses" width="50" />
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Development courses</h4>
-                  <p class="service-item-text">I create courses and videos on game and app development on Udemy and YouTube.</p>
-                </div>
-              </li>
-            </ul>
-          </section>
-          <section class="testimonials">
-            <h3 class="h3 testimonials-title"></h3>
-          </section>
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img src="./assets/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
-                </figure>
-                <img src="./assets/icon-quote.svg" alt="quote icon" />
-              </div>
-              <div class="modal-content">
-                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-                <time datetime="2021-06-14">14 June, 2021</time>
-                <div data-modal-text>
-                  <p> Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia. </p>
-                </div>
-              </div>
-            </section>
-          </div>
-          <section class="clients">
-            <h3 class="h3 clients-title"></h3>
-          </section>
-        </article>
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-              <h3 class="h3">Last education</h3>
-            </div>
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Udemy. Unity and C# Fundamental: 2D Game Development</h4>
-                <span>2024</span>
-                <p class="timeline-text">Learn solid programming basics and create your first 2D videogames with Unity and C#.</p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Apple Coding Academy</h4>
-                <span>2018 — 2023</span>
-                <p class="timeline-text">Different courses in the last years:</p>
-                <p class="timeline-text">- App development with SwiftUI, Combine and Async/Await</p>
-                <p class="timeline-text">- Asynchronous Programming with Combine</p>
-                <p class="timeline-text">- Secure iOS development with Swift</p>
-                <p class="timeline-text">- Concurrency in iOS with Swift</p>
-                <p class="timeline-text">- Server-side Swift with Vapor 3</p>
-                <p class="timeline-text">- Learning Swift 5.5</p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">KeepCoding - Master KeepCoding Bootcamp</h4>
-                <span>2015</span>
-                <p class="timeline-text">Intensive programme for application development:</p>
-                <p class="timeline-text">- Git, GitHub & SourceTree</p>
-                <p class="timeline-text">- Advanced iOS development (Cocoa / Objective-C / Swift)</p>
-                <p class="timeline-text">- Advanced Android development</p>
-                <p class="timeline-text">- Backend development (Python/Django Api)</p>
-                <p class="timeline-text">- Web 2.0 application development (AngularJS/Html5/CSS3/JS)</p>
-                <p class="timeline-text">- BAAS (Backend as a Service: AWS/Azure/Parse)</p>
-                <p class="timeline-text">- TDD (Test Driven Development)</p>
-                <p class="timeline-text">- UX Design (Sketch)</p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Official studies from Spain.</h4>
-                <span>2013 — 2014</span>
-                <p class="timeline-text">CFGS Web Applications Development in IES Virgen del Espino (Soria, España)</p>
-              </li>
-            </ol>
-          </section>
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-              <h3 class="h3">Last experience</h3>
-            </div>
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Freelance</h4>
-                <h4 class="h4 timeline-item-title">Senior Apple developer</h4>
-                <span>2021 - today</span>
-                <p class="timeline-text">As a senior developer with experience in iOS, iPadOS, watchOS, TvOS and macOS, my focus is to ensure that high quality solutions are delivered that meet user expectations and the business needs of the company. I have deep knowledge in developing native apps for multiple Apple platforms, as well as integrating cloud services and third-party APIs.</p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Accenture</h4>
-                <h4 class="h4 timeline-item-title">Advanced Application Engineering Associate Manager - Lead Apple Team - Senior Apple developer</h4>
-                <span>2016 - 2023</span>
-                <p class="timeline-text">Team management and development of applications for Apple devices with agile methodologies and best practices.</p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Hasten Group</h4>
-                <h4 class="h4 timeline-item-title">Lead Apple Team - Senior Apple developer</h4>
-                <span>2015 - 2016</span>
-                <p class="timeline-text">Team management and development of applications for Apple devices with agile methodologies and best practices.</p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Aluxion Labs</h4>
-                <h4 class="h4 timeline-item-title">Senior Apple developer</h4>
-                <span>2015</span>
-                <p class="timeline-text">Development of applications for Apple devices with agile methodologies and best practices.</p>
-              </li>
-            </ol>
-          </section>
-        </article>
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Last projects</h2>
-          </header>
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
-              </li>
-              <li class="filter-item">
-                <button data-filter-btn>Applications</button>
-              </li>
-              <li class="filter-item">
-                <button data-filter-btn>Clients</button>
-              </li>
-              <li class="filter-item">
-                <button data-filter-btn>Education</button>
-              </li>
-              <li class="filter-item">
-                <button data-filter-btn>Games</button>
-              </li>
-              <li class="filter-item">
-                <button data-filter-btn>Social</button>
-              </li>
-            </ul>
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>Select category</div>
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-                <li class="select-item">
-                  <button data-select-item>Applications</button>
-                </li>
-                <li class="select-item">
-                  <button data-select-item>Clients</button>
-                </li>
-                <li class="select-item">
-                  <button data-select-item>Education</button>
-                </li>
-                <li class="select-item">
-                  <button data-select-item>Games</button>
-                </li>
-                <li class="select-item">
-                  <button data-select-item>Social</button>
-                </li>
-              </ul>
-            </div>
-            <ul class="project-list">
-              <li class="project-item active" data-filter-item data-category="applications">
-                <a href="https://museumai-web.vercel.app" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-museumai.png" alt="MuseumAI | Analyze art" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">"MuseumAI | Analyze art"</h3>
-                  <h3 class="project-title">All project</h3>
-                  <h3 class="project-title">2024</h3>
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="applications">
-                <a href="https://scubaplan-web.vercel.app" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-scubaplan.png" alt="ScubaPlan | Dive computer" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">"ScubaPlan | Dive computer"</h3>
-                  <h3 class="project-title">All project</h3>
-                  <h3 class="project-title">2024</h3>
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="applications">
-                <a href="https://marketplace.elgato.com/product/github-contributions-e44e9f6c-e85a-4889-acc5-d666133671e4" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-github-contributions-plugin.png" alt="GitHub" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">"GitHub Contributions Stream Deck Plugin"</h3>
-                  <h3 class="project-title">All project</h3>
-                  <h3 class="project-title">2024</h3>
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="clients">
-                <a href="https://www.indracompany.com" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-indra.png" alt="XMPP and WebRTC SDK" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">XMPP & WebRTC SDK</h3>
-                  <h3 class="project-title">All project</h3>
-                  <h3 class="project-title">2024</h3>
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="social">
-                <a href="https://www.youtube.com/@_artcc_" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-youtube.jpg" alt="YouTube" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">YouTube channel</h3>
-                  <h3 class="project-title">Videos about application and game development</h3>
-                  <h3 class="project-title">2024</h3>
-                  <p class="project-category">Social</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="education">
-                <a href="https://www.udemy.com/course/desarrolla-el-juego-space-invaders-con-swift-y-spritekit" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-udemy.png" alt="Udemy" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">"Desarrolla el juego Space Invaders con Swift y SpriteKit" </h3>
-                  <h3 class="project-title">All project</h3>
-                  <h3 class="project-title">2024</h3>
-                  <p class="project-category">Education</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="clients">
-                <a href="https://apps.apple.com/es/app/gmp-smart/id1350688711" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-gmp.png" alt="GMP Smart" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">GMP Smart</h3>
-                  <h3 class="project-title">Maintenance and new functionalities</h3>
-                  <h3 class="project-title">2024 - 2023</h3>
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="clients">
-                <a href="https://apps.apple.com/es/app/guudjob/id811172331" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-guudjob.png" alt="Guudjob" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">Guudjob</h3>
-                  <h3 class="project-title">Maintenance and new functionalities</h3>
-                  <h3 class="project-title">2024 - 2023 & 2015</h3>
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="education">
-                <a href="https://www.udemy.com/course/desarrolla-un-juego-2d-con-swift-y-spritekit-para-ios" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-udemy.png" alt="Udemy" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">"Desarrolla un juego 2D con Swift y SpriteKit para iOS"</h3>
-                  <h3 class="project-title">All project</h3>
-                  <h3 class="project-title">2023</h3>
-                  <p class="project-category">Education</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="clients">
-                <a href="https://apps.apple.com/es/app/certificado-digital-fnmt/id6449721772" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-fnmt.jpg" alt="Certificado digital FNMT" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">Certificado digital FNMT</h3>
-                  <h3 class="project-title">Init project and SDK</h3>
-                  <h3 class="project-title">2023</h3>
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="clients">
-                <a href="https://apps.apple.com/es/app/savi-pharma/id1162030888" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-savi-pharma.png" alt="savi Pharma" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">savi Pharma</h3>
-                  <h3 class="project-title">Maintenance and new functionalities</h3>
-                  <h3 class="project-title">2023 - 2022</h3>
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="clients">
-                <a href="https://apps.apple.com/es/app/el-corte-ingl%C3%A9s/id1497498548" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-eci.png" alt="El Corte Inglés" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">El Corte Inglés</h3>
-                  <h3 class="project-title">All project</h3>
-                  <h3 class="project-title">2022 - 2020</h3>
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="clients">
-                <a href="https://apps.apple.com/es/app/carrefour-pass-m%C3%B3vil/id1016811445" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-carrefour-pass.png" alt="Carrefour PASS" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">Carrefour PASS</h3>
-                  <h3 class="project-title">All project</h3>
-                  <h3 class="project-title">2019 - 2017</h3>
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="clients">
-                <a href="https://apps.apple.com/es/app/bankinter-m%C3%B3vil/id356160865" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-bk.png" alt="bankinter" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">Bankinter móvil</h3>
-                  <h3 class="project-title">All project</h3>
-                  <h3 class="project-title">2016 - 2015</h3>
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-              <li class="project-item active" data-filter-item data-category="clients">
-                <a href="https://apps.apple.com/es/app/bankintercard/id1081458617?l=en-GB" target="_blank">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-                    <img src="./assets/logo-bkcard.png" alt="bankintercard" loading="lazy" />
-                  </figure>
-                  <h3 class="project-title">bankintercard</h3>
-                  <h3 class="project-title">All project</h3>
-                  <h3 class="project-title">2016 - 2015</h3>
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
-      </div>
-    </main>
-    <script src="./js/script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  </body>
+</body>
 </html>
