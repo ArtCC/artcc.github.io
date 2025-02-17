@@ -44,7 +44,7 @@
     </a>
     <img width="12" />
     <a href="https://apps.apple.com/us/app/localizapp-dev-translator/id6741363662" target="_blank">
-  <img src="/assets/localizapp.png" height="165" alt="Localizapp" />
+  <img src="/assets/localizapp.png" height="150" alt="Localizapp" />
 </a>
   <img width="12" />
     <a href="https://apps.apple.com/us/app/museumai-analyze-art/id6501983819" target="_blank">
