@@ -40,20 +40,17 @@
 
 <div align="left">
   <a href="https://marketplace.elgato.com/product/github-contributions-e44e9f6c-e85a-4889-acc5-d666133671e4" target="_blank">
-  <img src="/assets/github_contributions.png" height="150" alt="GitHub Contributions" />
-    </a>
-    <img width="12" />
-    <a href="https://apps.apple.com/us/app/localizapp-dev-translator/id6741363662" target="_blank">
-  <img src="/assets/localizapp.png" height="150" alt="Localizapp" />
-</a>
-  <img width="12" />
-    <a href="https://apps.apple.com/us/app/museumai-analyze-art/id6501983819" target="_blank">
-  <img src="/assets/museumai.png" height="150" alt="MuseumAI" />
-</a>
-  <img width="12" />
-    <a href="https://apps.apple.com/us/app/scubaplan-dive-computer/id6689517716" target="_blank">
-  <img src="/assets/scubaplan.png" height="150" alt="ScubaPlan" />
-</a>
+    <img src="/assets/github_contributions.png" height="150" alt="GitHub Contributions" style="margin-right: 10px;" />
+  </a>
+  <a href="https://apps.apple.com/us/app/localizapp-dev-translator/id6741363662" target="_blank">
+    <img src="/assets/localizapp.png" height="150" alt="Localizapp" style="margin-right: 10px;" />
+  </a>
+  <a href="https://apps.apple.com/us/app/museumai-analyze-art/id6501983819" target="_blank">
+    <img src="/assets/museumai.png" height="150" alt="MuseumAI" style="margin-right: 10px;" />
+  </a>
+  <a href="https://apps.apple.com/us/app/scubaplan-dive-computer/id6689517716" target="_blank">
+    <img src="/assets/scubaplan.png" height="150" alt="ScubaPlan" />
+  </a>
 </div>
 
 ## License
