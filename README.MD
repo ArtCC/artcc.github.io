@@ -43,15 +43,15 @@
     <img src="/assets/github_contributions.png" height="150" alt="GitHub Contributions"/>
   </a>
   &nbsp;
-  <a href="https://apps.apple.com/us/app/localizapp-dev-translator/id6741363662">
-    <img src="/assets/localizapp.png" height="150" alt="Localizapp"/>
+  <a href="https://apps.apple.com/us/app/id6741363662">
+    <img src="/assets/localizapp.png" height="150" alt="Localizapp for Xcode"/>
   </a>
   &nbsp;
-  <a href="https://apps.apple.com/us/app/museumai-analyze-art/id6501983819">
+  <a href="https://apps.apple.com/us/app/id6501983819">
     <img src="/assets/museumai.png" height="150" alt="MuseumAI"/>
   </a>
   &nbsp;
-  <a href="https://apps.apple.com/us/app/scubaplan-dive-computer/id6689517716">
+  <a href="https://apps.apple.com/us/app/id6689517716">
     <img src="/assets/scubaplan.png" height="150" alt="ScubaPlan"/>
   </a>
 </p>
