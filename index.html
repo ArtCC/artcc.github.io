@@ -1,48 +1,258 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arturo Carretero Calvo</title>
-    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header id="header" class="header-tops">
-      <div class="container">
-        <img src="assets/arturo.png" height="150" alt="Arturo Carretero Calvo" />
-        <h1>Arturo Carretero Calvo</h1>
-        <h2 style="color: var(--text-color)">I'm <span class="typing" style="color: #0066cc"></span>
-        </h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arturo Carretero Calvo - Apple Developer</title>
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-image">
+          <img src="assets/arturo.png" alt="Arturo Carretero Calvo" />
+        </div>
+        <h1 class="hero-title">Arturo Carretero Calvo</h1>
+        <h2 class="hero-subtitle">I'm <span class="typing"></span></h2>
+        <p class="hero-description">Apple device developer from Madrid, Spain</p>
         <div class="social-links">
-          <a href="https://apps.apple.com/us/developer/arturo-carretero-calvo/id1004967520" target="_blank" class="apple">
-            <i class="bi bi-apple" style="font-size: 1.5rem;"></i>
+          <a href="https://apps.apple.com/us/developer/arturo-carretero-calvo/id1004967520" target="_blank"
+            class="social-link apple" title="App Store">
+            <i class="bi bi-apple"></i>
           </a>
-          <a href="https://www.github.com/artcc" target="_blank" class="github">
-            <i class="bi bi-github" style="font-size: 1.5rem;"></i>
+          <a href="https://www.github.com/artcc" target="_blank" class="social-link github" title="GitHub">
+            <i class="bi bi-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/artcc" target="_blank" class="linkedin">
-            <i class="bi bi-linkedin" style="font-size: 1.5rem;"></i>
+          <a href="https://www.linkedin.com/in/artcc" target="_blank" class="social-link linkedin" title="LinkedIn">
+            <i class="bi bi-linkedin"></i>
           </a>
-          <a href="https://twitter.com/_artcc_" target="_blank" class="twitter">
-            <i class="bi bi-twitter-x" style="font-size: 1.5rem;"></i>
+          <a href="https://twitter.com/_artcc_" target="_blank" class="social-link twitter" title="Twitter/X">
+            <i class="bi bi-twitter-x"></i>
           </a>
-          <a href="https://www.youtube.com/@_artcc_" target="_blank" class="youtube">
-            <i class="bi bi-youtube" style="font-size: 1.5rem;"></i>
+          <a href="https://www.youtube.com/@_artcc_" target="_blank" class="social-link youtube" title="YouTube">
+            <i class="bi bi-youtube"></i>
+          </a>
+        </div>
+        <a href="#skills" class="cta-button">Learn More</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">I Code With</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="Swift" />
+          <h3>Swift</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/objectivec/objectivec-plain.svg"
+            alt="Objective-C" />
+          <h3>Objective-C</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" alt="Xcode" />
+          <h3>Xcode</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" />
+          <h3>VS Code</h3>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" />
+          <h3>Firebase</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Personal Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/github_contributions.png" alt="GitHub Contributions" />
+          </div>
+          <div class="project-content">
+            <h3>GitHub Contributions</h3>
+            <p>Elgato Stream Deck plugin to display GitHub contributions</p>
+            <a href="https://marketplace.elgato.com/product/github-contributions-e44e9f6c-e85a-4889-acc5-d666133671e4"
+              target="_blank" class="project-link">
+              View Project <i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/localizapp.png" alt="Localizapp for Xcode" />
+          </div>
+          <div class="project-content">
+            <h3>Localizapp for Xcode</h3>
+            <p>Xcode extension for app localization management</p>
+            <a href="https://apps.apple.com/us/app/id6741363662" target="_blank" class="project-link">
+              View on App Store <i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/museumai.png" alt="MuseumAI" />
+          </div>
+          <div class="project-content">
+            <h3>MuseumAI</h3>
+            <p>AI-powered museum guide application</p>
+            <a href="https://apps.apple.com/us/app/id6501983819" target="_blank" class="project-link">
+              View on App Store <i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/scubaplan.png" alt="ScubaPlan" />
+          </div>
+          <div class="project-content">
+            <h3>ScubaPlan</h3>
+            <p>Dive planning and logging application for scuba divers</p>
+            <a href="https://apps.apple.com/us/app/id6689517716" target="_blank" class="project-link">
+              View on App Store <i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <p>I'm always interested in new opportunities and collaborations.</p>
+        <div class="contact-links">
+          <a href="mailto:contacto@arturocarreterocalvo.com" class="contact-link">
+            <i class="bi bi-envelope"></i>
+            <span>Email Me</span>
+          </a>
+          <a href="https://www.linkedin.com/in/artcc" target="_blank" class="contact-link">
+            <i class="bi bi-linkedin"></i>
+            <span>LinkedIn</span>
           </a>
         </div>
       </div>
-    </header>
-    <script src="js/typed.js/typed.min.js"></script>
-    <script type="text/javascript">
-      var typed = new Typed('.typing', {
-        strings: ["Arturo. Hello, World!", "a freelance developer for Apple devices", "part-time indie game dev at home", "occasionally post development videos on Udemy and YouTube", "a scuba diver"],
-        loop: true,
-        typeSpeed: 75,
-        backSpeed: 75
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Arturo Carretero Calvo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/typed.js/typed.min.js"></script>
+  <script>
+    // Typed.js initialization
+    var typed = new Typed('.typing', {
+      strings: ["Arturo. Hello, World!", "a freelance developer for Apple devices", "part-time indie game dev at home", "occasionally post development videos on Udemy and YouTube", "a scuba diver"],
+      loop: true,
+      typeSpeed: 75,
+      backSpeed: 75
+    });
+
+    // Smooth scrolling navigation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
       });
-    </script>
-  </body>
+    });
+
+    // Mobile menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navMenu.classList.remove('active');
+    }));
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 100) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Intersection Observer for animations
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+        }
+      });
+    }, observerOptions);
+
+    // Observe all sections for animations
+    document.querySelectorAll('section').forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+</body>
+
 </html>
