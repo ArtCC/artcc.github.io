@@ -1,4 +1,3 @@
-/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +16,6 @@ body {
   overflow-x: hidden;
 }
 
-/* CSS Variables */
 :root {
   --primary-color: #0066cc;
   --secondary-color: #002147;
@@ -45,14 +43,12 @@ body {
   }
 }
 
-/* Container */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Navigation */
 .navbar {
   position: fixed;
   top: 0;
@@ -124,7 +120,6 @@ body {
   width: 100%;
 }
 
-/* Mobile menu */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -174,7 +169,6 @@ body {
   }
 }
 
-/* Hero Section */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -315,7 +309,6 @@ body {
   border-right: 2px solid rgba(255, 255, 255, 0.6);
 }
 
-/* Sections */
 section {
   padding: 5rem 0;
   opacity: 0;
@@ -349,7 +342,6 @@ section.animate {
   border-radius: 2px;
 }
 
-/* About Section */
 .about {
   background: var(--bg-secondary);
 }
@@ -401,7 +393,6 @@ section.animate {
   min-width: 24px;
 }
 
-/* Skills Section */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -434,7 +425,6 @@ section.animate {
   color: var(--text-color);
 }
 
-/* Projects Section */
 .projects {
   background: var(--bg-secondary);
 }
@@ -504,7 +494,6 @@ section.animate {
   gap: 1rem;
 }
 
-/* Contact Section */
 .contact-content {
   max-width: 600px;
   margin: 0 auto;
@@ -542,7 +531,6 @@ section.animate {
   box-shadow: var(--shadow-hover);
 }
 
-/* Footer */
 .footer {
   background: var(--bg-secondary);
   padding: 2rem 0;
@@ -554,7 +542,6 @@ section.animate {
   color: var(--text-light);
 }
 
-/* Animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -586,7 +573,6 @@ section.animate {
   }
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2rem;

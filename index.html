@@ -13,7 +13,6 @@
 </head>
 
 <body>
-  <!-- Navigation -->
   <nav class="navbar">
     <div class="nav-container">
       <div class="nav-menu">
@@ -30,7 +29,6 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="hero-container">
       <div class="hero-content">
@@ -66,7 +64,6 @@
     </div>
   </section>
 
-  <!-- Skills Section -->
   <section id="skills" class="skills">
     <div class="container">
       <h2 class="section-title">I Code With</h2>
@@ -96,7 +93,6 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
   <section id="projects" class="projects">
     <div class="container">
       <h2 class="section-title">Personal Projects</h2>
@@ -157,7 +153,6 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
   <section id="contact" class="contact">
     <div class="container">
       <h2 class="section-title">Get In Touch</h2>
@@ -177,17 +172,14 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <p>&copy; 2025 Arturo Carretero Calvo. All rights reserved.</p>
     </div>
   </footer>
 
-  <!-- Scripts -->
   <script src="js/typed.js/typed.min.js"></script>
   <script>
-    // Typed.js initialization
     var typed = new Typed('.typing', {
       strings: ["Arturo. Hello, World!", "a freelance developer for Apple devices", "part-time indie game dev at home", "occasionally post development videos on Udemy and YouTube", "a scuba diver"],
       loop: true,
@@ -195,7 +187,6 @@
       backSpeed: 75
     });
 
-    // Smooth scrolling navigation
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -209,7 +200,6 @@
       });
     });
 
-    // Mobile menu toggle
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
 
@@ -218,13 +208,11 @@
       navMenu.classList.toggle('active');
     });
 
-    // Close mobile menu when clicking on a link
     document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
       hamburger.classList.remove('active');
       navMenu.classList.remove('active');
     }));
 
-    // Navbar scroll effect
     window.addEventListener('scroll', () => {
       const navbar = document.querySelector('.navbar');
       if (window.scrollY > 100) {
@@ -234,7 +222,6 @@
       }
     });
 
-    // Intersection Observer for animations
     const observerOptions = {
       threshold: 0.1,
       rootMargin: '0px 0px -50px 0px'
@@ -248,7 +235,6 @@
       });
     }, observerOptions);
 
-    // Observe all sections for animations
     document.querySelectorAll('section').forEach(section => {
       observer.observe(section);
     });
