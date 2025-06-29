@@ -76,7 +76,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -450,8 +450,12 @@ section.animate {
 }
 
 .project-image {
-  height: 150px;
+  width: 100%;
+  aspect-ratio: 16/9;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-image img {
