@@ -1,10 +1,11 @@
-<!-- Badges -->
 <p align="right">
   <img src="https://img.shields.io/github/license/ArtCC/artcc.github.io" alt="License">
   <img src="https://img.shields.io/github/last-commit/ArtCC/artcc.github.io" alt="Last Commit">
 </p>
 
-<p><img src="https://github.com/ArtCC/artcc.github.io/blob/main/assets/setup.jpeg" height="400"></p>
+<p align="center">
+  <img src="https://github.com/ArtCC/artcc.github.io/blob/main/assets/setup.jpeg" style="width:100%;max-width:1000px;" alt="Header image" />
+</p>
 
 <h1 align="left">Hello, World! 👋</h1>
 
