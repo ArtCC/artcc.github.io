@@ -183,7 +183,8 @@
   <footer class="footer">
     <div class="container">
       <p>Developed with 💙 by <span style="color: #0066cc; font-weight: 600;">ArtCC</span></p>
-      <p style="margin-top: 1rem;">&copy; 2025 Arturo Carretero Calvo. All rights reserved.</p>
+      <p style="margin-top: 1rem;">&copy; <span id="current-year"></span> Arturo Carretero Calvo. All rights reserved.
+      </p>
     </div>
   </footer>
 
@@ -247,6 +248,8 @@
     document.querySelectorAll('section').forEach(section => {
       observer.observe(section);
     });
+
+    document.getElementById('current-year').textContent = new Date().getFullYear();
   </script>
 </body>
 
