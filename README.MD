@@ -64,6 +64,10 @@
     <img src="/assets/scubaplan.png" height="100" alt="ScubaPlan"/>
   </a>
   <b>ScubaPlan</b>: Dive planner for recreational divers.
+  <a href="https://apps.apple.com/us/app/votice/id6673904950">
+    <img src="/assets/votice.png" height="100" alt="Votice"/>
+  </a>
+  <b>Votice</b>: A complete solution to collect, manage and act on user feedback for your apps.
 </p>
 
 ## Contact
