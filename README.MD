@@ -63,7 +63,7 @@
   <a href="https://apps.apple.com/us/app/id6689517716">
     <img src="/assets/scubaplan.png" height="100" alt="ScubaPlan"/>
   </a>
-  <b>ScubaPlan</b>: Dive planner for recreational divers.
+  <b>ScubaPlan</b>: Dive planner for recreational divers.<br><br>
   <a href="https://apps.apple.com/us/app/votice/id6673904950">
     <img src="/assets/votice.png" height="100" alt="Votice"/>
   </a>
