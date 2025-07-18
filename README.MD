@@ -52,19 +52,19 @@
     <img src="/assets/github_contributions.png" height="100" alt="GitHub Contributions"/>
   </a>
   <b>GitHub Contributions</b>: Stream Deck plugin that shows your GitHub contributions in real time.<br><br>
-  <a href="https://apps.apple.com/us/app/id6741363662">
+  <a href="https://localizappforxcode.app">
     <img src="/assets/localizapp.png" height="100" alt="Localizapp for Xcode"/>
   </a>
   <b>Localizapp for Xcode</b>: Tool to manage localization for iOS projects.<br><br>
-  <a href="https://apps.apple.com/us/app/id6501983819">
+  <a href="https://museumai-web.vercel.app/">
     <img src="/assets/museumai.png" height="100" alt="MuseumAI"/>
   </a>
   <b>MuseumAI</b>: App to discover museums and art using AI.<br><br>
-  <a href="https://apps.apple.com/us/app/id6689517716">
+  <a href="https://scubaplan.app">
     <img src="/assets/scubaplan.png" height="100" alt="ScubaPlan"/>
   </a>
   <b>ScubaPlan</b>: Dive planner for recreational divers.<br><br>
-  <a href="https://apps.apple.com/us/app/id6673904950">
+  <a href="https://votice.app">
     <img src="/assets/votice.png" height="100" alt="Votice"/>
   </a>
   <b>Votice</b>: A complete solution to collect, manage and act on user feedback for your apps.
