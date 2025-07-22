@@ -22,10 +22,10 @@
 
 ## About Me
 
-- 👨🏻‍💻 Developer for Apple devices
-- 👾 Indie game dev in my spare time
-- 📽️ I publish development videos on Udemy and YouTube
-- 🤿 Recreational scuba diver
+- 👨🏻‍💻 Indie Apple developer
+- 🚀 Turning ideas into apps to achieve full indie life
+- 💡 Coding, creating & sharing the process
+- 🤿 Scuba diver
 
 ## Technologies
 
