@@ -56,7 +56,7 @@
     <img src="/assets/localizapp.png" height="100" alt="Localizapp for Xcode"/>
   </a>
   <b>Localizapp for Xcode</b>: Tool to manage localization for iOS projects.<br><br>
-  <a href="https://museumai-web.vercel.app/">
+  <a href="https://museum-ai.app/">
     <img src="/assets/museumai.png" height="100" alt="MuseumAI"/>
   </a>
   <b>MuseumAI</b>: App to discover museums and art using AI.<br><br>
