@@ -40,34 +40,59 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" alt="firebase logo" />
   <img width="12" />
+</div>
+<div align="left">
+  <img src="assets/revenuecat.png" height="40" alt="revenuecat logo" />
+  <img width="12" />
+  <img src="assets/votice.png" height="40" alt="votice logo" />
+  <img width="12" />
+  <img src="assets/localizapp.png" height="40" alt="localizapp logo" />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo" />
 </div>
 
-## Personal Projects
+## 🚀 Personal Projects
 
 <p align="left">
   <a href="https://marketplace.elgato.com/product/github-contributions-e44e9f6c-e85a-4889-acc5-d666133671e4">
-    <img src="/assets/github_contributions.png" height="100" alt="GitHub Contributions"/>
+    <img src="/assets/github_contributions.png" width="100" height="100" alt="GitHub Contributions"/><br>
+    <b>GitHub Contributions</b><br>
+    Stream Deck plugin that shows your GitHub contributions in real time.
   </a>
-  <b>GitHub Contributions</b>: Stream Deck plugin that shows your GitHub contributions in real time.<br><br>
+</p>
+
+<p align="left">
   <a href="https://localizappforxcode.app">
-    <img src="/assets/localizapp.png" height="100" alt="Localizapp for Xcode"/>
+    <img src="/assets/localizapp.png" width="100" height="100" alt="Localizapp for Xcode"/><br>
+    <b>Localizapp for Xcode</b><br>
+    Tool to manage localization for iOS projects.
   </a>
-  <b>Localizapp for Xcode</b>: Tool to manage localization for iOS projects.<br><br>
+</p>
+
+<p align="left">
   <a href="https://museum-ai.app/">
-    <img src="/assets/museumai.png" height="100" alt="MuseumAI"/>
+    <img src="/assets/museumai.png" width="100" height="100" alt="MuseumAI"/><br>
+    <b>MuseumAI</b><br>
+    App to discover museums and art using AI.
   </a>
-  <b>MuseumAI</b>: App to discover museums and art using AI.<br><br>
+</p>
+
+<p align="left">
   <a href="https://scubaplan.app">
-    <img src="/assets/scubaplan.png" height="100" alt="ScubaPlan"/>
+    <img src="/assets/scubaplan.png" width="100" height="100" alt="ScubaPlan"/><br>
+    <b>ScubaPlan</b><br>
+    Dive planner for recreational divers.
   </a>
-  <b>ScubaPlan</b>: Dive planner for recreational divers.<br><br>
+</p>
+
+<p align="left">
   <a href="https://votice.app">
-    <img src="/assets/votice.png" height="100" alt="Votice"/>
+    <img src="/assets/votice.png" width="100" height="100" alt="Votice"/><br>
+    <b>Votice</b><br>
+    A complete solution to collect, manage and act on user feedback for your apps.
   </a>
-  <b>Votice</b>: A complete solution to collect, manage and act on user feedback for your apps.
 </p>
 
 ## Contact
