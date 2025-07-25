@@ -95,6 +95,14 @@
   A complete solution to collect, manage and act on user feedback for your apps.
 </p>
 
+<p align="left">
+  <a href="https://github.com/ArtCC/votice-sdk">
+    <img src="/assets/votice.png" width="100" height="100" alt="Votice"/>
+  </a><br>
+  <a href="https://github.com/ArtCC/votice-sdk"><b>Votice SDK</b></a><br>
+  Native Swift SDK that allows you to integrate user feedback, suggestion boards, and voting mechanisms in your app with a clean UI and a simple setup. It connects to a custom backend using HMAC authentication and does not require Firebase or GoogleService-Info.plist.
+</p>
+
 ## Contact
 
 - [LinkedIn](https://www.linkedin.com/in/arturocarretero/)
