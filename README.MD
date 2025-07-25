@@ -57,42 +57,42 @@
 
 <p align="left">
   <a href="https://marketplace.elgato.com/product/github-contributions-e44e9f6c-e85a-4889-acc5-d666133671e4">
-    <img src="/assets/github_contributions.png" width="100" height="100" alt="GitHub Contributions"/><br>
-    <b>GitHub Contributions</b><br>
-    Stream Deck plugin that shows your GitHub contributions in real time.
-  </a>
+    <img src="/assets/github_contributions.png" width="100" height="100" alt="GitHub Contributions"/>
+  </a><br>
+  <a href="https://marketplace.elgato.com/product/github-contributions-e44e9f6c-e85a-4889-acc5-d666133671e4"><b>GitHub Contributions</b></a><br>
+  Stream Deck plugin that shows your GitHub contributions in real time.
 </p>
 
 <p align="left">
   <a href="https://localizappforxcode.app">
-    <img src="/assets/localizapp.png" width="100" height="100" alt="Localizapp for Xcode"/><br>
-    <b>Localizapp for Xcode</b><br>
-    Tool to manage localization for iOS projects.
-  </a>
+    <img src="/assets/localizapp.png" width="100" height="100" alt="Localizapp for Xcode"/>
+  </a><br>
+  <a href="https://localizappforxcode.app"><b>Localizapp for Xcode</b></a><br>
+  Tool to manage localization for iOS projects.
 </p>
 
 <p align="left">
   <a href="https://museum-ai.app/">
-    <img src="/assets/museumai.png" width="100" height="100" alt="MuseumAI"/><br>
-    <b>MuseumAI</b><br>
-    App to discover museums and art using AI.
-  </a>
+    <img src="/assets/museumai.png" width="100" height="100" alt="MuseumAI"/>
+  </a><br>
+  <a href="https://museum-ai.app/"><b>MuseumAI</b></a><br>
+  App to discover museums and art using AI.
 </p>
 
 <p align="left">
   <a href="https://scubaplan.app">
-    <img src="/assets/scubaplan.png" width="100" height="100" alt="ScubaPlan"/><br>
-    <b>ScubaPlan</b><br>
-    Dive planner for recreational divers.
-  </a>
+    <img src="/assets/scubaplan.png" width="100" height="100" alt="ScubaPlan"/>
+  </a><br>
+  <a href="https://scubaplan.app"><b>ScubaPlan</b></a><br>
+  Dive planner for recreational divers.
 </p>
 
 <p align="left">
   <a href="https://votice.app">
-    <img src="/assets/votice.png" width="100" height="100" alt="Votice"/><br>
-    <b>Votice</b><br>
-    A complete solution to collect, manage and act on user feedback for your apps.
-  </a>
+    <img src="/assets/votice.png" width="100" height="100" alt="Votice"/>
+  </a><br>
+  <a href="https://votice.app"><b>Votice</b></a><br>
+  A complete solution to collect, manage and act on user feedback for your apps.
 </p>
 
 ## Contact
