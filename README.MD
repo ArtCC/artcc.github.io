@@ -97,7 +97,7 @@
 
 <p align="left">
   <a href="https://github.com/ArtCC/votice-sdk">
-    <img src="/assets/votice.png" width="100" height="100" alt="Votice"/>
+    <img src="/assets/votice_sdk.png" width="100" height="100" alt="Votice"/>
   </a><br>
   <a href="https://github.com/ArtCC/votice-sdk"><b>Votice SDK</b></a><br>
   Native Swift SDK that allows you to integrate user feedback, suggestion boards, and voting mechanisms in your app with a clean UI and a simple setup. It connects to a custom backend using HMAC authentication and does not require Firebase or GoogleService-Info.plist.
@@ -106,8 +106,8 @@
 ## Contact
 
 - [LinkedIn](https://www.linkedin.com/in/arturocarretero/)
+- [X](https://twitter.com/artcc)
 - [YouTube](https://www.youtube.com/@artcc)
-- [Twitter/X](https://twitter.com/artcc)
 
 ## License
 
