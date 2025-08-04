@@ -30,16 +30,16 @@
 ## Technologies
 
 <p align="left">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="36" alt="swift logo" />&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/objectivec/objectivec-plain.svg" height="36" alt="objectivec logo" />&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" height="36" alt="xcode logo" />&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="36" alt="vscode logo" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="36" alt="swift logo" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/objectivec/objectivec-plain.svg" height="36" alt="objectivec logo" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" height="36" alt="xcode logo" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="36" alt="vscode logo" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="36" alt="firebase logo" />
 <br>
-<img src="assets/revenuecat.png" height="36" alt="revenuecat logo" />&nbsp;
-<img src="assets/votice.png" height="36" alt="votice logo" />&nbsp;
-<img src="assets/localizapp.png" height="36" alt="localizapp logo" />&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="36" alt="git logo" />&nbsp;
+<img src="assets/revenuecat.png" height="36" alt="revenuecat logo" />
+<img src="assets/votice.png" height="36" alt="votice logo" />
+<img src="assets/localizapp.png" height="36" alt="localizapp logo" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="36" alt="git logo" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="36" alt="github logo" />
 </p>
 
