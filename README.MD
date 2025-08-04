@@ -29,22 +29,16 @@
 
 ## Technologies
 
-<table cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
-  <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="36" alt="swift logo" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/objectivec/objectivec-plain.svg" height="36" alt="objectivec logo" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" height="36" alt="xcode logo" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="36" alt="vscode logo" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="36" alt="firebase logo" /></td>
-  </tr>
-  <tr>
-    <td><img src="assets/revenuecat.png" height="36" alt="revenuecat logo" /></td>
-    <td><img src="assets/votice.png" height="36" alt="votice logo" /></td>
-    <td><img src="assets/localizapp.png" height="36" alt="localizapp logo" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="36" alt="git logo" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="36" alt="github logo" /></td>
-  </tr>
-</table>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="36" alt="swift logo" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/objectivec/objectivec-plain.svg" height="36" alt="objectivec logo" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" height="36" alt="xcode logo" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="36" alt="vscode logo" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="36" alt="firebase logo" />
+<img src="assets/revenuecat.png" height="36" alt="revenuecat logo" />&nbsp;
+<img src="assets/votice.png" height="36" alt="votice logo" />&nbsp;
+<img src="assets/localizapp.png" height="36" alt="localizapp logo" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="36" alt="git logo" />&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="36" alt="github logo" />
 
 ## 🚀 Personal Projects
 
