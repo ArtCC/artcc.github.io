@@ -29,7 +29,7 @@
 
 ## Technologies
 
-<table>
+<table cellspacing="0" cellpadding="0" style="border: none; border-collapse: collapse;">
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" height="36" alt="swift logo" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/objectivec/objectivec-plain.svg" height="36" alt="objectivec logo" /></td>
