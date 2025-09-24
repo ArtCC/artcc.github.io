@@ -1,22 +1,104 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Arturo Carretero Calvo - Apple Developer</title>
+
+  <!-- SEO Meta Tags -->
+  <title>Arturo Carretero Calvo - iOS Developer & Apple Developer | Portfolio</title>
+  <meta name="description"
+    content="Freelance developer specialized in iOS applications, Swift and Apple devices. Portfolio of Arturo Carretero Calvo with mobile development projects, Xcode plugins and AI solutions." />
+  <meta name="keywords"
+    content="iOS developer, Swift, Xcode, Apple Developer, mobile development, iOS applications, freelancer, Madrid, Spain, Firebase, Git" />
+  <meta name="author" content="Arturo Carretero Calvo" />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="English" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://artcc.github.io/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://artcc.github.io/" />
+  <meta property="og:title" content="Arturo Carretero Calvo - iOS Developer & Apple Developer" />
+  <meta property="og:description"
+    content="Professional portfolio of Arturo Carretero Calvo. Freelance developer specialized in iOS applications, Swift and Apple devices." />
+  <meta property="og:image" content="https://artcc.github.io/assets/arturo.png" />
+  <meta property="og:site_name" content="Arturo Carretero Calvo Portfolio" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://artcc.github.io/" />
+  <meta name="twitter:title" content="Arturo Carretero Calvo - iOS Developer & Apple Developer" />
+  <meta name="twitter:description"
+    content="Professional portfolio of Arturo Carretero Calvo. Freelance developer specialized in iOS applications, Swift and Apple devices." />
+  <meta name="twitter:image" content="https://artcc.github.io/assets/arturo.png" />
+  <meta name="twitter:creator" content="@_artcc_" />
+
+  <!-- Favicon -->
   <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon.png" />
+  <link rel="apple-touch-icon" href="./assets/favicon.png" />
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="./manifest.json" />
+
+  <!-- Preload critical resources -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    as="style" />
+  <link rel="preload" href="./assets/arturo.png" as="image" />
+
+  <!-- Stylesheets -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
     rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Arturo Carretero Calvo",
+    "jobTitle": "iOS Developer",
+    "description": "Freelance developer specialized in iOS applications and Apple devices",
+    "url": "https://artcc.github.io/",
+    "image": "https://artcc.github.io/assets/arturo.png",
+    "sameAs": [
+      "https://www.github.com/artcc",
+      "https://www.linkedin.com/in/artcc",
+      "https://twitter.com/_artcc_",
+      "https://www.youtube.com/@_artcc_",
+      "https://apps.apple.com/us/developer/arturo-carretero-calvo/id1004967520"
+    ],
+    "knowsAbout": [
+      "iOS Development",
+      "Swift Programming",
+      "Xcode",
+      "Firebase",
+      "Mobile App Development",
+      "Apple Ecosystem"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Freelancer"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Madrid",
+      "addressCountry": "Spain"
+    }
+  }
+  </script>
 </head>
 
 <body>
   <nav class="navbar">
     <div class="nav-container">
       <div class="nav-menu">
-        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
         <a href="#skills" class="nav-link">Skills</a>
         <a href="#projects" class="nav-link">Projects</a>
         <a href="#contact" class="nav-link">Contact</a>
@@ -33,36 +115,48 @@
     <div class="hero-container">
       <div class="hero-content">
         <div class="hero-image">
-          <img src="assets/arturo.png" alt="Arturo Carretero Calvo" />
+          <img src="assets/arturo.png"
+            alt="Arturo Carretero Calvo - Professional iOS Developer and Apple Developer from Madrid, Spain" />
         </div>
         <h1 class="hero-title">Arturo Carretero Calvo</h1>
         <h2 class="hero-subtitle">I'm <span class="typing"></span></h2>
-        <p class="hero-description">Apple device developer from Madrid, Spain</p>
+        <p class="hero-description">
+          Freelance developer specialized in Apple devices from Madrid, Spain.
+          Expert in iOS application development with Swift, Firebase integration,
+          and creating developer tools like Xcode extensions.
+        </p>
         <div class="social-links">
           <a href="https://apps.apple.com/us/developer/arturo-carretero-calvo/id1004967520" target="_blank"
-            class="social-link apple" title="App Store">
+            class="social-link apple" title="See my applications on App Store"
+            aria-label="Arturo Carretero's App Store">
             <i class="bi bi-apple"></i>
           </a>
-          <a href="https://www.github.com/artcc" target="_blank" class="social-link github" title="GitHub">
+          <a href="https://www.github.com/artcc" target="_blank" class="social-link github"
+            title="Open source projects on GitHub" aria-label="GitHub Profile">
             <i class="bi bi-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/artcc" target="_blank" class="social-link linkedin" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/artcc" target="_blank" class="social-link linkedin"
+            title="Professional profile on LinkedIn" aria-label="LinkedIn Profile">
             <i class="bi bi-linkedin"></i>
           </a>
-          <a href="https://www.malt.es/profile/artcc" target="_blank" class="social-link malt" title="Malt">
+          <a href="https://www.malt.es/profile/artcc" target="_blank" class="social-link malt"
+            title="Freelance services on Malt" aria-label="Malt Profile">
             <i class="bi bi-briefcase"></i>
           </a>
-          <a href="https://www.udemy.com/user/arturo76/" target="_blank" class="social-link udemy" title="Udemy">
+          <a href="https://www.udemy.com/user/arturo76/" target="_blank" class="social-link udemy"
+            title="Development courses on Udemy" aria-label="Udemy Courses">
             <i class="bi bi-mortarboard"></i>
           </a>
-          <a href="https://twitter.com/_artcc_" target="_blank" class="social-link twitter" title="X">
+          <a href="https://twitter.com/_artcc_" target="_blank" class="social-link twitter"
+            title="Follow me on X (Twitter)" aria-label="Twitter Profile">
             <i class="bi bi-twitter-x"></i>
           </a>
-          <a href="https://www.youtube.com/@_artcc_" target="_blank" class="social-link youtube" title="YouTube">
+          <a href="https://www.youtube.com/@_artcc_" target="_blank" class="social-link youtube"
+            title="Development tutorials on YouTube" aria-label="YouTube Channel">
             <i class="bi bi-youtube"></i>
           </a>
         </div>
-        <a href="#skills" class="cta-button">Learn More</a>
+        <a href="#about" class="cta-button" aria-label="Learn more about my professional experience">Learn More</a>
       </div>
     </div>
     <div class="scroll-indicator">
@@ -70,50 +164,131 @@
     </div>
   </section>
 
+  <section id="about" class="about" style="padding: 5rem 0; background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 2rem; color: var(--text-color);">
+          I'm a <strong>freelance iOS developer</strong> based in Madrid, Spain, specialized in creating
+          innovative mobile applications and tools that improve other developers' productivity.
+        </p>
+        <div
+          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem;">
+          <div
+            style="text-align: left; padding: 1.5rem; background: var(--bg-color); border-radius: 12px; box-shadow: var(--shadow);">
+            <h3
+              style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="bi bi-code-slash"></i> Technical Experience
+            </h3>
+            <p>Over 10 years developing iOS applications with Swift and Objective-C. Specialist in Firebase integration,
+              REST APIs and MVVM and VIPER architectures.</p>
+          </div>
+          <div
+            style="text-align: left; padding: 1.5rem; background: var(--bg-color); border-radius: 12px; box-shadow: var(--shadow);">
+            <h3
+              style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="bi bi-lightbulb"></i> Innovation
+            </h3>
+            <p>Creator of tools like Localizapp for Xcode and Votice SDK. I'm passionate about solving complex problems
+              and creating solutions that positively impact the developer community.</p>
+          </div>
+          <div
+            style="text-align: left; padding: 1.5rem; background: var(--bg-color); border-radius: 12px; box-shadow: var(--shadow);">
+            <h3
+              style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="bi bi-people"></i> Community
+            </h3>
+            <p>I actively contribute to the iOS development ecosystem through open source projects, YouTube tutorials
+              and Udemy courses. Mentor for new iOS developers.</p>
+          </div>
+          <div
+            style="text-align: left; padding: 1.5rem; background: var(--bg-color); border-radius: 12px; box-shadow: var(--shadow);">
+            <h3
+              style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="bi bi-trophy"></i> Achievements
+            </h3>
+            <p>Applications published on App Store with thousands of downloads. Creator of popular Xcode extensions
+              and Stream Deck plugins used by developers worldwide.</p>
+          </div>
+        </div>
+        <div
+          style="margin-top: 3rem; padding: 2rem; background: var(--bg-color); border-radius: 16px; border-left: 4px solid var(--primary-color);">
+          <h3 style="color: var(--primary-color); margin-bottom: 1rem;">My Development Philosophy</h3>
+          <p style="font-style: italic; font-size: 1.1rem; line-height: 1.6;">
+            "I believe in the power of clean code, intuitive interfaces and solutions that truly solve problems.
+            Each project is an opportunity to create something that improves people's lives and makes other developers'
+            work easier."
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="skills" class="skills">
     <div class="container">
-      <h2 class="section-title">I code and work with:</h2>
+      <h2 class="section-title">Technologies and Tools</h2>
+      <p style="text-align: center; margin-bottom: 3rem; color: var(--text-light); font-size: 1.1rem;">
+        Technology stack I use daily to develop high-quality iOS applications
+      </p>
       <div class="skills-grid">
         <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+            alt="Firebase - Backend as a service for iOS applications" />
           <h3>Firebase</h3>
+          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Backend and real-time database</p>
         </div>
         <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            alt="Git - Version control for collaborative development" />
           <h3>Git</h3>
+          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Version control and collaboration
+          </p>
         </div>
         <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            alt="GitHub - Repositories and source code management" />
           <h3>GitHub</h3>
+          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Repositories and CI/CD</p>
         </div>
         <div class="skill-card">
-          <img src="assets/localizapp.png" height="64" alt="Localizapp" />
+          <img src="assets/localizapp.png" height="64" alt="Localizapp - Localization tool for iOS applications" />
           <h3>Localizapp</h3>
+          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">App localization</p>
         </div>
         <div class="skill-card">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/objectivec/objectivec-plain.svg"
-            alt="Objective-C" />
+            alt="Objective-C - Programming language for legacy iOS development" />
           <h3>Objective-C</h3>
+          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Classic iOS development</p>
         </div>
         <div class="skill-card">
-          <img src="assets/revenuecat.png" height="64" alt="RevenueCat" />
+          <img src="assets/revenuecat.png" height="64"
+            alt="RevenueCat - Subscription management and app monetization" />
           <h3>RevenueCat</h3>
+          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Monetization and subscriptions</p>
         </div>
         <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="Swift" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
+            alt="Swift - Main programming language for modern iOS development" />
           <h3>Swift</h3>
+          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Modern iOS development</p>
         </div>
         <div class="skill-card">
-          <img src="assets/votice.png" height="64" alt="Votice" />
+          <img src="assets/votice.png" height="64" alt="Votice - User feedback and engagement platform" />
           <h3>Votice</h3>
+          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">User feedback and engagement</p>
         </div>
         <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+            alt="VS Code - Code editor for cross-platform development" />
           <h3>VS Code</h3>
+          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Cross-platform editor</p>
         </div>
         <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" alt="Xcode" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg"
+            alt="Xcode - Apple's official IDE for iOS development" />
           <h3>Xcode</h3>
+          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Apple's official IDE</p>
         </div>
       </div>
     </div>
@@ -121,102 +296,187 @@
 
   <section id="projects" class="projects">
     <div class="container">
-      <h2 class="section-title">Personal Projects</h2>
+      <h2 class="section-title">Featured Projects</h2>
+      <p style="text-align: center; margin-bottom: 3rem; color: var(--text-light); font-size: 1.1rem;">
+        iOS applications, developer tools and plugins I have developed
+      </p>
       <div class="projects-grid">
-        <div class="project-card">
+        <article class="project-card">
           <div class="project-image">
-            <img src="assets/github_contributions.png" alt="GitHub Contributions" />
+            <img src="assets/github_contributions.png" alt="GitHub Contributions plugin for Elgato Stream Deck"
+              loading="lazy" />
           </div>
           <div class="project-content">
             <h3>GitHub Contributions</h3>
-            <p>Elgato Stream Deck plugin to display GitHub contributions</p>
+            <p>Elgato Stream Deck plugin that displays GitHub contributions in real time. Perfect for streamers and
+              developers who want to show their development activity during live streams.</p>
+            <div class="project-tags" style="margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Stream
+                Deck</span>
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">GitHub
+                API</span>
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">JavaScript</span>
+            </div>
             <a href="https://marketplace.elgato.com/product/github-contributions-e44e9f6c-e85a-4889-acc5-d666133671e4"
-              target="_blank" class="project-link">
+              target="_blank" class="project-link" aria-label="View GitHub Contributions on Elgato Marketplace">
               View Project <i class="bi bi-arrow-up-right"></i>
             </a>
           </div>
-        </div>
+        </article>
 
-        <div class="project-card">
+        <article class="project-card">
           <div class="project-image">
-            <img src="assets/localizapp.png" alt="Localizapp for Xcode" />
+            <img src="assets/localizapp.png" alt="Localizapp for Xcode - Extension for iOS app localization"
+              loading="lazy" />
           </div>
           <div class="project-content">
             <h3>Localizapp for Xcode</h3>
-            <p>Xcode extension for app localization management</p>
-            <a href="https://localizappforxcode.app" target="_blank" class="project-link">
+            <p>Xcode extension that simplifies localization management in iOS applications. Allows editing and
+              synchronizing Localizable.strings files directly from the IDE, saving time in the internationalization
+              process.</p>
+            <div class="project-tags" style="margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Xcode
+                Extension</span>
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Localization</span>
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Swift</span>
+            </div>
+            <a href="https://localizappforxcode.app" target="_blank" class="project-link"
+              aria-label="Visit Localizapp for Xcode">
               View Project <i class="bi bi-arrow-up-right"></i>
             </a>
           </div>
-        </div>
+        </article>
 
-        <div class="project-card">
+        <article class="project-card">
           <div class="project-image">
-            <img src="assets/museumai.png" alt="MuseumAI" />
+            <img src="assets/museumai.png" alt="MuseumAI - AI-powered museum guide application" loading="lazy" />
           </div>
           <div class="project-content">
             <h3>MuseumAI</h3>
-            <p>AI-powered museum guide application</p>
-            <a href="https://museum-ai.app/" target="_blank" class="project-link">
+            <p>Innovative iOS application that uses artificial intelligence to create interactive museum experiences.
+              Users can get detailed information about artworks through visual recognition and natural language
+              processing.</p>
+            <div class="project-tags" style="margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">iOS
+                App</span>
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">AI/ML</span>
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Computer
+                Vision</span>
+            </div>
+            <a href="https://museum-ai.app/" target="_blank" class="project-link" aria-label="Download MuseumAI">
               View Project <i class="bi bi-arrow-up-right"></i>
             </a>
           </div>
-        </div>
+        </article>
 
-        <div class="project-card">
+        <article class="project-card">
           <div class="project-image">
-            <img src="assets/scubaplan.png" alt="ScubaPlan" />
+            <img src="assets/scubaplan.png" alt="ScubaPlan - Dive planning and logging application" loading="lazy" />
           </div>
           <div class="project-content">
             <h3>ScubaPlan</h3>
-            <p>Dive planning and logging application for scuba divers</p>
-            <a href="https://scubaplan.app" target="_blank" class="project-link">
+            <p>Complete application for divers that allows planning dives, keeping detailed dive logs and calculating
+              decompression. Includes dive tables, nitrox calculator and personal dive logbook.</p>
+            <div class="project-tags" style="margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">iOS
+                App</span>
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Core
+                Data</span>
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">SwiftUI</span>
+            </div>
+            <a href="https://scubaplan.app" target="_blank" class="project-link" aria-label="Download ScubaPlan">
               View Project <i class="bi bi-arrow-up-right"></i>
             </a>
           </div>
-        </div>
+        </article>
 
-        <div class="project-card">
+        <article class="project-card">
           <div class="project-image">
-            <img src="assets/votice.png" alt="Votice" />
+            <img src="assets/votice.png" alt="Votice - User feedback and management platform for applications"
+              loading="lazy" />
           </div>
           <div class="project-content">
             <h3>Votice</h3>
-            <p>A complete solution to collect, manage and act on user feedback for your apps</p>
-            <a href="https://votice.app" target="_blank" class="project-link">
+            <p>Complete SaaS platform to collect, manage and act on user feedback from mobile applications. Includes
+              suggestion boards, voting system and sentiment analysis to improve user experience.</p>
+            <div class="project-tags" style="margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">SaaS
+                Platform</span>
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">User
+                Feedback</span>
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Analytics</span>
+            </div>
+            <a href="https://votice.app" target="_blank" class="project-link" aria-label="Visit Votice">
               View Project <i class="bi bi-arrow-up-right"></i>
             </a>
           </div>
-        </div>
+        </article>
 
-        <div class="project-card">
+        <article class="project-card">
           <div class="project-image">
-            <img src="assets/votice_sdk.png" alt="Votice SDK" />
+            <img src="assets/votice_sdk.png" alt="Votice SDK - Native development kit to integrate user feedback"
+              loading="lazy" />
           </div>
           <div class="project-content">
             <h3>Votice SDK</h3>
-            <p>Native Swift SDK that allows you to integrate user feedback, suggestion boards, and voting mechanisms in
-              your app with a clean UI and a simple setup</p>
-            <a href="https://github.com/artcc/votice-sdk" target="_blank" class="project-link">
+            <p>Native Swift SDK that allows integrating user feedback systems, suggestion boards and voting mechanisms
+              in iOS applications with a clean interface and simple setup. Open source on GitHub.</p>
+            <div class="project-tags" style="margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Swift
+                SDK</span>
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Open
+                Source</span>
+              <span
+                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">SwiftUI</span>
+            </div>
+            <a href="https://github.com/artcc/votice-sdk" target="_blank" class="project-link"
+              aria-label="View Votice SDK on GitHub">
               View Project <i class="bi bi-arrow-up-right"></i>
             </a>
           </div>
-        </div>
+        </article>
       </div>
     </div>
   </section>
 
   <section id="contact" class="contact">
     <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
+      <h2 class="section-title">Contact</h2>
       <div class="contact-content">
-        <p>I'm always interested in new opportunities and collaborations.</p>
+        <p style="font-size: 1.1rem; margin-bottom: 2rem; text-align: center;">
+          Do you have a project in mind? Need to develop an iOS application or a developer tool?<br>
+          I'm always interested in new opportunities and collaborations.
+        </p>
+        <div class="contact-info" style="text-align: center; margin-bottom: 2rem;">
+          <p><strong>Specialties:</strong> iOS Development, Swift, Xcode Extensions, Firebase, API integration</p>
+          <p><strong>Location:</strong> Madrid, Spain (remote work available)</p>
+          <p><strong>Availability:</strong> Freelance projects and consultancies</p>
+        </div>
         <div class="contact-links">
-          <a href="mailto:contacto@arturocarreterocalvo.com" class="contact-link">
+          <a href="mailto:contacto@arturocarreterocalvo.com" class="contact-link"
+            aria-label="Send email to Arturo Carretero">
             <i class="bi bi-envelope"></i>
             <span>Email Me</span>
           </a>
-          <a href="https://www.linkedin.com/in/artcc" target="_blank" class="contact-link">
+          <a href="https://www.linkedin.com/in/artcc" target="_blank" class="contact-link"
+            aria-label="Connect on LinkedIn">
             <i class="bi bi-linkedin"></i>
             <span>LinkedIn</span>
           </a>
