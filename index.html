@@ -44,10 +44,13 @@
 
   <!-- PWA Manifest -->
   <link rel="manifest" href="./manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
 
   <!-- Preload critical resources -->
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    as="style" />
+    as="style" crossorigin />
   <link rel="preload" href="./assets/arturo.png" as="image" />
 
   <!-- Stylesheets -->
@@ -99,448 +102,385 @@
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <nav class="navbar">
     <div class="nav-container">
-      <div class="nav-menu">
+      <div class="nav-menu" id="primary-navigation">
         <a href="#about" class="nav-link">About</a>
         <a href="#skills" class="nav-link">Skills</a>
         <a href="#projects" class="nav-link">Projects</a>
         <a href="#contact" class="nav-link">Contact</a>
       </div>
-      <div class="hamburger">
+      <button class="hamburger" type="button" aria-label="Toggle navigation" aria-controls="primary-navigation"
+        aria-expanded="false">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
-      </div>
+      </button>
     </div>
   </nav>
 
-  <section id="home" class="hero">
-    <div class="hero-container">
-      <div class="hero-content">
-        <div class="hero-image">
-          <img src="assets/arturo.png"
-            alt="Arturo Carretero Calvo - Professional Apple Platform Developer specializing in iOS, iPadOS, macOS, watchOS and tvOS from Madrid, Spain" />
+  <main id="main-content" tabindex="-1">
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-image">
+            <img src="assets/arturo.png" width="1024" height="1024" decoding="async"
+              alt="Arturo Carretero Calvo - Professional Apple Platform Developer specializing in iOS, iPadOS, macOS, watchOS and tvOS from Madrid, Spain" />
+          </div>
+          <h1 class="hero-title">Arturo Carretero Calvo</h1>
+          <h2 class="hero-subtitle">I'm <span class="typing"></span></h2>
+          <p class="hero-description">
+            Freelance developer specialized in Apple devices from Madrid, Spain.
+            Expert in software development for the entire Apple ecosystem (iOS, iPadOS, macOS, watchOS, tvOS) with
+            Swift,
+            Firebase integration,
+            and creating developer tools like Xcode extensions.
+          </p>
+          <div class="social-links">
+            <a href="https://apps.apple.com/us/developer/arturo-carretero-calvo/id1004967520" target="_blank"
+              rel="noopener noreferrer" class="social-link apple" title="See my applications on App Store"
+              aria-label="Arturo Carretero's App Store">
+              <i class="bi bi-apple"></i>
+            </a>
+            <a href="https://www.github.com/artcc" target="_blank" rel="noopener noreferrer" class="social-link github"
+              title="Open source projects on GitHub" aria-label="GitHub Profile">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/artcc" target="_blank" rel="noopener noreferrer"
+              class="social-link linkedin" title="Professional profile on LinkedIn" aria-label="LinkedIn Profile">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.malt.es/profile/artcc" target="_blank" rel="noopener noreferrer"
+              class="social-link malt" title="Freelance services on Malt" aria-label="Malt Profile">
+              <i class="bi bi-briefcase"></i>
+            </a>
+            <a href="https://www.udemy.com/user/arturo76/" target="_blank" rel="noopener noreferrer"
+              class="social-link udemy" title="Development courses on Udemy" aria-label="Udemy Courses">
+              <i class="bi bi-mortarboard"></i>
+            </a>
+            <a href="https://twitter.com/_artcc_" target="_blank" rel="noopener noreferrer" class="social-link twitter"
+              title="Follow me on X (Twitter)" aria-label="Twitter Profile">
+              <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="https://www.youtube.com/@_artcc_" target="_blank" rel="noopener noreferrer"
+              class="social-link youtube" title="Development tutorials on YouTube" aria-label="YouTube Channel">
+              <i class="bi bi-youtube"></i>
+            </a>
+          </div>
+          <a href="#about" class="cta-button" aria-label="Learn more about my professional experience">Learn More</a>
         </div>
-        <h1 class="hero-title">Arturo Carretero Calvo</h1>
-        <h2 class="hero-subtitle">I'm <span class="typing"></span></h2>
-        <p class="hero-description">
-          Freelance developer specialized in Apple devices from Madrid, Spain.
-          Expert in software development for the entire Apple ecosystem (iOS, iPadOS, macOS, watchOS, tvOS) with Swift,
-          Firebase integration,
-          and creating developer tools like Xcode extensions.
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p class="about-intro">
+            I'm a <strong>freelance Apple platform developer</strong> based in Madrid, Spain, specialized in creating
+            innovative applications and tools for the entire Apple ecosystem (iOS, iPadOS, macOS, watchOS, tvOS).
+          </p>
+          <div class="about-grid">
+            <article class="about-card">
+              <h3 class="about-card-title">
+                <i class="bi bi-code-slash"></i> Technical Experience
+              </h3>
+              <p>Over 10 years developing applications for Apple platforms (iOS, iPadOS, macOS, watchOS, tvOS) with
+                Swift
+                and Objective-C. Specialist in Firebase integration,
+                REST APIs and MVVM and VIPER architectures.</p>
+            </article>
+            <article class="about-card">
+              <h3 class="about-card-title">
+                <i class="bi bi-lightbulb"></i> Innovation
+              </h3>
+              <p>Creator of tools like Localizapp for Xcode and Votice SDK. I'm passionate about solving complex
+                problems
+                and creating solutions that positively impact the developer community.</p>
+            </article>
+            <article class="about-card">
+              <h3 class="about-card-title">
+                <i class="bi bi-people"></i> Community
+              </h3>
+              <p>I actively contribute to the Apple development ecosystem through open source projects, YouTube
+                tutorials
+                and Udemy courses. Mentor for developers working with Apple platforms.</p>
+            </article>
+            <article class="about-card">
+              <h3 class="about-card-title">
+                <i class="bi bi-trophy"></i> Achievements
+              </h3>
+              <p>Applications published on App Store with thousands of downloads. Creator of popular Xcode extensions
+                and Stream Deck plugins used by developers worldwide.</p>
+            </article>
+          </div>
+          <div class="about-philosophy">
+            <h3 class="about-philosophy-title">My Development Philosophy</h3>
+            <p class="about-philosophy-text">
+              "I believe in the power of clean code, intuitive interfaces and solutions that truly solve problems.
+              Each project is an opportunity to create something that improves people's lives and makes other
+              developers'
+              work easier."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Technologies and Tools</h2>
+        <p class="section-intro">
+          Technology stack I use daily to develop high-quality applications for Apple platforms
         </p>
-        <div class="social-links">
-          <a href="https://apps.apple.com/us/developer/arturo-carretero-calvo/id1004967520" target="_blank"
-            class="social-link apple" title="See my applications on App Store"
-            aria-label="Arturo Carretero's App Store">
-            <i class="bi bi-apple"></i>
-          </a>
-          <a href="https://www.github.com/artcc" target="_blank" class="social-link github"
-            title="Open source projects on GitHub" aria-label="GitHub Profile">
-            <i class="bi bi-github"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/artcc" target="_blank" class="social-link linkedin"
-            title="Professional profile on LinkedIn" aria-label="LinkedIn Profile">
-            <i class="bi bi-linkedin"></i>
-          </a>
-          <a href="https://www.malt.es/profile/artcc" target="_blank" class="social-link malt"
-            title="Freelance services on Malt" aria-label="Malt Profile">
-            <i class="bi bi-briefcase"></i>
-          </a>
-          <a href="https://www.udemy.com/user/arturo76/" target="_blank" class="social-link udemy"
-            title="Development courses on Udemy" aria-label="Udemy Courses">
-            <i class="bi bi-mortarboard"></i>
-          </a>
-          <a href="https://twitter.com/_artcc_" target="_blank" class="social-link twitter"
-            title="Follow me on X (Twitter)" aria-label="Twitter Profile">
-            <i class="bi bi-twitter-x"></i>
-          </a>
-          <a href="https://www.youtube.com/@_artcc_" target="_blank" class="social-link youtube"
-            title="Development tutorials on YouTube" aria-label="YouTube Channel">
-            <i class="bi bi-youtube"></i>
-          </a>
-        </div>
-        <a href="#about" class="cta-button" aria-label="Learn more about my professional experience">Learn More</a>
-      </div>
-    </div>
-    <div class="scroll-indicator">
-      <div class="scroll-arrow"></div>
-    </div>
-  </section>
-
-  <section id="about" class="about" style="padding: 5rem 0; background: var(--bg-secondary);">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-        <p style="font-size: 1.2rem; line-height: 1.8; margin-bottom: 2rem; color: var(--text-color);">
-          I'm a <strong>freelance Apple platform developer</strong> based in Madrid, Spain, specialized in creating
-          innovative applications and tools for the entire Apple ecosystem (iOS, iPadOS, macOS, watchOS, tvOS).
-        </p>
-        <div
-          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem;">
-          <div
-            style="text-align: left; padding: 1.5rem; background: var(--bg-color); border-radius: 12px; box-shadow: var(--shadow);">
-            <h3
-              style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="bi bi-code-slash"></i> Technical Experience
-            </h3>
-            <p>Over 10 years developing applications for Apple platforms (iOS, iPadOS, macOS, watchOS, tvOS) with Swift
-              and Objective-C. Specialist in Firebase integration,
-              REST APIs and MVVM and VIPER architectures.</p>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="60"
+              height="60" loading="lazy" decoding="async"
+              alt="Firebase - Backend as a service for Apple platform applications" />
+            <h3>Firebase</h3>
+            <p class="skill-card-text">Backend and real-time database</p>
           </div>
-          <div
-            style="text-align: left; padding: 1.5rem; background: var(--bg-color); border-radius: 12px; box-shadow: var(--shadow);">
-            <h3
-              style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="bi bi-lightbulb"></i> Innovation
-            </h3>
-            <p>Creator of tools like Localizapp for Xcode and Votice SDK. I'm passionate about solving complex problems
-              and creating solutions that positively impact the developer community.</p>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="60" height="60"
+              loading="lazy" decoding="async" alt="Git - Version control for collaborative development" />
+            <h3>Git</h3>
+            <p class="skill-card-text">Version control and collaboration</p>
           </div>
-          <div
-            style="text-align: left; padding: 1.5rem; background: var(--bg-color); border-radius: 12px; box-shadow: var(--shadow);">
-            <h3
-              style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="bi bi-people"></i> Community
-            </h3>
-            <p>I actively contribute to the Apple development ecosystem through open source projects, YouTube tutorials
-              and Udemy courses. Mentor for developers working with Apple platforms.</p>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60"
+              height="60" loading="lazy" decoding="async" alt="GitHub - Repositories and source code management" />
+            <h3>GitHub</h3>
+            <p class="skill-card-text">Repositories and CI/CD</p>
           </div>
-          <div
-            style="text-align: left; padding: 1.5rem; background: var(--bg-color); border-radius: 12px; box-shadow: var(--shadow);">
-            <h3
-              style="color: var(--primary-color); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-              <i class="bi bi-trophy"></i> Achievements
-            </h3>
-            <p>Applications published on App Store with thousands of downloads. Creator of popular Xcode extensions
-              and Stream Deck plugins used by developers worldwide.</p>
+          <div class="skill-card">
+            <img src="assets/localizapp.png" width="1024" height="1024" loading="lazy" decoding="async"
+              alt="Localizapp - Localization tool for Apple platform applications" />
+            <h3>Localizapp</h3>
+            <p class="skill-card-text">App localization</p>
           </div>
-        </div>
-        <div
-          style="margin-top: 3rem; padding: 2rem; background: var(--bg-color); border-radius: 16px; border-left: 4px solid var(--primary-color);">
-          <h3 style="color: var(--primary-color); margin-bottom: 1rem;">My Development Philosophy</h3>
-          <p style="font-style: italic; font-size: 1.1rem; line-height: 1.6;">
-            "I believe in the power of clean code, intuitive interfaces and solutions that truly solve problems.
-            Each project is an opportunity to create something that improves people's lives and makes other developers'
-            work easier."
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="skills" class="skills">
-    <div class="container">
-      <h2 class="section-title">Technologies and Tools</h2>
-      <p style="text-align: center; margin-bottom: 3rem; color: var(--text-light); font-size: 1.1rem;">
-        Technology stack I use daily to develop high-quality applications for Apple platforms
-      </p>
-      <div class="skills-grid">
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
-            alt="Firebase - Backend as a service for Apple platform applications" />
-          <h3>Firebase</h3>
-          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Backend and real-time database</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-            alt="Git - Version control for collaborative development" />
-          <h3>Git</h3>
-          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Version control and collaboration
-          </p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-            alt="GitHub - Repositories and source code management" />
-          <h3>GitHub</h3>
-          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Repositories and CI/CD</p>
-        </div>
-        <div class="skill-card">
-          <img src="assets/localizapp.png" height="64"
-            alt="Localizapp - Localization tool for Apple platform applications" />
-          <h3>Localizapp</h3>
-          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">App localization</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/objectivec/objectivec-plain.svg"
-            alt="Objective-C - Programming language for Apple platform development" />
-          <h3>Objective-C</h3>
-          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Classic Apple development</p>
-        </div>
-        <div class="skill-card">
-          <img src="assets/revenuecat.png" height="64"
-            alt="RevenueCat - Subscription management and app monetization" />
-          <h3>RevenueCat</h3>
-          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Monetization and subscriptions</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
-            alt="Swift - Main programming language for modern Apple platform development" />
-          <h3>Swift</h3>
-          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Modern Apple platform development
-          </p>
-        </div>
-        <div class="skill-card">
-          <img src="assets/votice.png" height="64" alt="Votice - User feedback and engagement platform" />
-          <h3>Votice</h3>
-          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">User feedback and engagement</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-            alt="VS Code - Code editor for cross-platform development" />
-          <h3>VS Code</h3>
-          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Cross-platform editor</p>
-        </div>
-        <div class="skill-card">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg"
-            alt="Xcode - Apple's official IDE for platform development" />
-          <h3>Xcode</h3>
-          <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 0.5rem;">Apple's official IDE</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects" class="projects">
-    <div class="container">
-      <h2 class="section-title">Featured Projects</h2>
-      <p style="text-align: center; margin-bottom: 3rem; color: var(--text-light); font-size: 1.1rem;">
-        Applications for Apple platforms, developer tools and plugins I have developed
-      </p>
-      <div class="projects-grid">
-        <article class="project-card">
-          <div class="project-image">
-            <img src="assets/github_contributions.png" alt="GitHub Contributions plugin for Elgato Stream Deck"
-              loading="lazy" />
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/objectivec/objectivec-plain.svg" width="60"
+              height="60" loading="lazy" decoding="async"
+              alt="Objective-C - Programming language for Apple platform development" />
+            <h3>Objective-C</h3>
+            <p class="skill-card-text">Classic Apple development</p>
           </div>
-          <div class="project-content">
-            <h3>GitHub Contributions</h3>
-            <p>Elgato Stream Deck plugin that displays GitHub contributions in real time. Perfect for streamers and
-              developers who want to show their development activity during live streams.</p>
-            <div class="project-tags" style="margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">GitHub
-                API</span>
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">JavaScript</span>
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Stream
-                Deck</span>
-            </div>
-            <a href="https://marketplace.elgato.com/product/github-contributions-e44e9f6c-e85a-4889-acc5-d666133671e4"
-              target="_blank" class="project-link" aria-label="View GitHub Contributions on Elgato Marketplace">
-              View Project <i class="bi bi-arrow-up-right"></i>
-            </a>
+          <div class="skill-card">
+            <img src="assets/revenuecat.png" width="512" height="512" loading="lazy" decoding="async"
+              alt="RevenueCat - Subscription management and app monetization" />
+            <h3>RevenueCat</h3>
+            <p class="skill-card-text">Monetization and subscriptions</p>
           </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-image">
-            <img src="assets/localizapp.png" alt="Localizapp for Xcode - Extension for iOS app localization"
-              loading="lazy" />
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" width="60"
+              height="60" loading="lazy" decoding="async"
+              alt="Swift - Main programming language for modern Apple platform development" />
+            <h3>Swift</h3>
+            <p class="skill-card-text">Modern Apple platform development</p>
           </div>
-          <div class="project-content">
-            <h3>Localizapp for Xcode</h3>
-            <p>Xcode extension that simplifies localization management in Apple platform applications. Allows editing
-              and
-              synchronizing Localizable.strings files directly from the IDE, saving time in the internationalization
-              process.</p>
-            <div class="project-tags" style="margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Swift</span>
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">SwiftUI</span>
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Xcode
-                Extension</span>
-            </div>
-            <a href="https://localizappforxcode.app" target="_blank" class="project-link"
-              aria-label="Visit Localizapp for Xcode">
-              View Project <i class="bi bi-arrow-up-right"></i>
-            </a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-image">
-            <img src="assets/museumai.png" alt="MuseumAI - AI-powered museum guide application" loading="lazy" />
-          </div>
-          <div class="project-content">
-            <h3>MuseumAI</h3>
-            <p>Innovative application for Apple devices that uses artificial intelligence to create interactive museum
-              experiences.
-              Users can get detailed information about artworks through visual recognition and natural language
-              processing.</p>
-            <div class="project-tags" style="margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Swift</span>
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">SwiftUI</span>
-            </div>
-            <a href="https://museum-ai.app/" target="_blank" class="project-link" aria-label="Download MuseumAI">
-              View Project <i class="bi bi-arrow-up-right"></i>
-            </a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-image">
-            <img src="assets/scubaplan.png" alt="ScubaPlan - Dive planning and logging application" loading="lazy" />
-          </div>
-          <div class="project-content">
-            <h3>ScubaPlan</h3>
-            <p>Complete application for divers that allows planning dives, keeping detailed dive logs and calculating
-              decompression. Includes dive tables, nitrox calculator and personal dive logbook.</p>
-            <div class="project-tags" style="margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Swift</span>
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">SwiftUI</span>
-            </div>
-            <a href="https://scubaplan.app" target="_blank" class="project-link" aria-label="Download ScubaPlan">
-              View Project <i class="bi bi-arrow-up-right"></i>
-            </a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-image">
-            <img src="assets/votice.png" alt="Votice - User feedback and management platform for applications"
-              loading="lazy" />
-          </div>
-          <div class="project-content">
+          <div class="skill-card">
+            <img src="assets/votice.png" width="1024" height="1024" loading="lazy" decoding="async"
+              alt="Votice - User feedback and engagement platform" />
             <h3>Votice</h3>
-            <p>Complete SaaS platform to collect, manage and act on user feedback from mobile applications. Includes
-              suggestion boards, voting system and sentiment analysis to improve user experience.</p>
-            <div class="project-tags" style="margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Swift</span>
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">SwiftUI</span>
-            </div>
-            <a href="https://votice.app" target="_blank" class="project-link" aria-label="Visit Votice">
-              View Project <i class="bi bi-arrow-up-right"></i>
-            </a>
+            <p class="skill-card-text">User feedback and engagement</p>
           </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-image">
-            <img src="assets/votice_sdk.png" alt="Votice SDK - Native development kit to integrate user feedback"
-              loading="lazy" />
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="60"
+              height="60" loading="lazy" decoding="async" alt="VS Code - Code editor for cross-platform development" />
+            <h3>VS Code</h3>
+            <p class="skill-card-text">Cross-platform editor</p>
           </div>
-          <div class="project-content">
-            <h3>Votice SDK</h3>
-            <p>Native Swift SDK that allows integrating user feedback systems, suggestion boards and voting mechanisms
-              in iOS applications with a clean interface and simple setup. Open source on GitHub.</p>
-            <div class="project-tags" style="margin: 1rem 0; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">SDK</span>
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">Swift</span>
-              <span
-                style="background: var(--primary-color); color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem;">SwiftUI</span>
-            </div>
-            <a href="https://github.com/artcc/votice-sdk" target="_blank" class="project-link"
-              aria-label="View Votice SDK on GitHub">
-              View Project <i class="bi bi-arrow-up-right"></i>
-            </a>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" width="60"
+              height="60" loading="lazy" decoding="async" alt="Xcode - Apple's official IDE for platform development" />
+            <h3>Xcode</h3>
+            <p class="skill-card-text">Apple's official IDE</p>
           </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-content">
-        <p style="font-size: 1.1rem; margin-bottom: 2rem; text-align: center;">
-          Do you have a project in mind? Need to develop an application for Apple platforms or a developer tool?<br>
-          I'm always interested in new opportunities and collaborations.
-        </p>
-        <div class="contact-info" style="text-align: center; margin-bottom: 2rem;">
-          <p><strong>Specialties:</strong> Apple Platform Development (iOS, iPadOS, macOS, watchOS, tvOS), Swift, Xcode
-            Extensions, Firebase, API integration</p>
-          <p><strong>Location:</strong> Madrid, Spain (remote work available)</p>
-          <p><strong>Availability:</strong> Freelance projects and consultancies</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-intro">
+          Applications for Apple platforms, developer tools and plugins I have developed
+        </p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/github_contributions.png" width="1024" height="1024" loading="lazy" decoding="async"
+                alt="GitHub Contributions plugin for Elgato Stream Deck" />
+            </div>
+            <div class="project-content">
+              <h3>GitHub Contributions</h3>
+              <p>Elgato Stream Deck plugin that displays GitHub contributions in real time. Perfect for streamers and
+                developers who want to show their development activity during live streams.</p>
+              <div class="project-tags">
+                <span class="project-tag">GitHub API</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Stream Deck</span>
+              </div>
+              <a href="https://marketplace.elgato.com/product/github-contributions-e44e9f6c-e85a-4889-acc5-d666133671e4"
+                target="_blank" rel="noopener noreferrer" class="project-link"
+                aria-label="View GitHub Contributions on Elgato Marketplace">
+                View Project <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/localizapp.png" width="1024" height="1024" loading="lazy" decoding="async"
+                alt="Localizapp for Xcode - Extension for iOS app localization" />
+            </div>
+            <div class="project-content">
+              <h3>Localizapp for Xcode</h3>
+              <p>Xcode extension that simplifies localization management in Apple platform applications. Allows editing
+                and
+                synchronizing Localizable.strings files directly from the IDE, saving time in the internationalization
+                process.</p>
+              <div class="project-tags">
+                <span class="project-tag">Swift</span>
+                <span class="project-tag">SwiftUI</span>
+                <span class="project-tag">Xcode Extension</span>
+              </div>
+              <a href="https://localizappforxcode.app" target="_blank" rel="noopener noreferrer" class="project-link"
+                aria-label="Visit Localizapp for Xcode">
+                View Project <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/museumai.png" width="1024" height="1024" loading="lazy" decoding="async"
+                alt="MuseumAI - AI-powered museum guide application" />
+            </div>
+            <div class="project-content">
+              <h3>MuseumAI</h3>
+              <p>Innovative application for Apple devices that uses artificial intelligence to create interactive museum
+                experiences.
+                Users can get detailed information about artworks through visual recognition and natural language
+                processing.</p>
+              <div class="project-tags">
+                <span class="project-tag">Swift</span>
+                <span class="project-tag">SwiftUI</span>
+              </div>
+              <a href="https://museum-ai.app/" target="_blank" rel="noopener noreferrer" class="project-link"
+                aria-label="Download MuseumAI">
+                View Project <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/scubaplan.png" width="1024" height="1024" loading="lazy" decoding="async"
+                alt="ScubaPlan - Dive planning and logging application" />
+            </div>
+            <div class="project-content">
+              <h3>ScubaPlan</h3>
+              <p>Complete application for divers that allows planning dives, keeping detailed dive logs and calculating
+                decompression. Includes dive tables, nitrox calculator and personal dive logbook.</p>
+              <div class="project-tags">
+                <span class="project-tag">Swift</span>
+                <span class="project-tag">SwiftUI</span>
+              </div>
+              <a href="https://scubaplan.app" target="_blank" rel="noopener noreferrer" class="project-link"
+                aria-label="Download ScubaPlan">
+                View Project <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/votice.png" width="1024" height="1024" loading="lazy" decoding="async"
+                alt="Votice - User feedback and management platform for applications" />
+            </div>
+            <div class="project-content">
+              <h3>Votice</h3>
+              <p>Complete SaaS platform to collect, manage and act on user feedback from mobile applications. Includes
+                suggestion boards, voting system and sentiment analysis to improve user experience.</p>
+              <div class="project-tags">
+                <span class="project-tag">Swift</span>
+                <span class="project-tag">SwiftUI</span>
+              </div>
+              <a href="https://votice.app" target="_blank" rel="noopener noreferrer" class="project-link"
+                aria-label="Visit Votice">
+                View Project <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img src="assets/votice_sdk.png" width="1024" height="1024" loading="lazy" decoding="async"
+                alt="Votice SDK - Native development kit to integrate user feedback" />
+            </div>
+            <div class="project-content">
+              <h3>Votice SDK</h3>
+              <p>Native Swift SDK that allows integrating user feedback systems, suggestion boards and voting mechanisms
+                in iOS applications with a clean interface and simple setup. Open source on GitHub.</p>
+              <div class="project-tags">
+                <span class="project-tag">SDK</span>
+                <span class="project-tag">Swift</span>
+                <span class="project-tag">SwiftUI</span>
+              </div>
+              <a href="https://github.com/artcc/votice-sdk" target="_blank" rel="noopener noreferrer"
+                class="project-link" aria-label="View Votice SDK on GitHub">
+                View Project <i class="bi bi-arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-content">
+          <p class="contact-lead">
+            Do you have a project in mind? Need to develop an application for Apple platforms or a developer tool?<br>
+            I'm always interested in new opportunities and collaborations.
+          </p>
+          <div class="contact-info">
+            <p><strong>Specialties:</strong> Apple Platform Development (iOS, iPadOS, macOS, watchOS, tvOS), Swift,
+              Xcode
+              Extensions, Firebase, API integration</p>
+            <p><strong>Location:</strong> Madrid, Spain (remote work available)</p>
+            <p><strong>Availability:</strong> Freelance projects and consultancies</p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:contact@arturocarreterocalvo.com" class="contact-link" aria-label="Email Arturo">
+              <i class="bi bi-envelope"></i> Email Me
+            </a>
+            <a href="https://www.linkedin.com/in/artcc" target="_blank" rel="noopener noreferrer" class="contact-link"
+              aria-label="Connect with Arturo on LinkedIn">
+              <i class="bi bi-linkedin"></i> Connect on LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
     <div class="container">
-      <p>Developed with 💙 by <span style="color: #0066cc; font-weight: 600;">ArtCC</span></p>
-      <p style="margin-top: 1rem;">&copy; <span id="current-year"></span> Arturo Carretero Calvo. All rights reserved.
-      </p>
+      <p>Developed with 💙 by <span class="footer-highlight">ArtCC</span></p>
+      <p class="footer-note">&copy; <span id="current-year"></span> Arturo Carretero Calvo. All rights reserved.</p>
     </div>
   </footer>
 
-  <script src="js/typed.js/typed.min.js"></script>
-  <script>
-    var typed = new Typed('.typing', {
-      strings: ["Arturo. Hello, World!", "a freelance developer for Apple devices", "part-time indie game dev at home", "occasionally post development videos on Udemy and YouTube", "a scuba diver"],
-      loop: true,
-      typeSpeed: 75,
-      backSpeed: 75
-    });
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-          target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
-        }
-      });
-    });
-
-    const hamburger = document.querySelector('.hamburger');
-    const navMenu = document.querySelector('.nav-menu');
-
-    hamburger.addEventListener('click', () => {
-      hamburger.classList.toggle('active');
-      navMenu.classList.toggle('active');
-    });
-
-    document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
-      hamburger.classList.remove('active');
-      navMenu.classList.remove('active');
-    }));
-
-    window.addEventListener('scroll', () => {
-      const navbar = document.querySelector('.navbar');
-      if (window.scrollY > 100) {
-        navbar.classList.add('scrolled');
-      } else {
-        navbar.classList.remove('scrolled');
-      }
-    });
-
-    const observerOptions = {
-      threshold: 0.1,
-      rootMargin: '0px 0px -50px 0px'
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('animate');
-        }
-      });
-    }, observerOptions);
-
-    document.querySelectorAll('section').forEach(section => {
-      observer.observe(section);
-    });
-
-    document.getElementById('current-year').textContent = new Date().getFullYear();
-  </script>
+  <script src="js/typed.js/typed.min.js" defer></script>
+  <script src="js/main.js" defer></script>
 </body>
 
 </html>

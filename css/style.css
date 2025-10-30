@@ -16,6 +16,24 @@ body {
   overflow-x: hidden;
 }
 
+.skip-link {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  background: var(--primary-color);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: var(--transition);
+  z-index: 1001;
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 :root {
   --primary-color: #0066cc;
   --secondary-color: #002147;
@@ -123,7 +141,18 @@ body {
 .hamburger {
   display: none;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  appearance: none;
+}
+
+.hamburger:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 4px;
 }
 
 .bar {
@@ -342,6 +371,13 @@ section.animate {
   border-radius: 2px;
 }
 
+.section-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
 .about {
   background: var(--bg-secondary);
 }
@@ -352,45 +388,67 @@ section.animate {
   text-align: center;
 }
 
-.about-text h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: var(--primary-color);
-}
-
-.about-text p {
-  font-size: 1.1rem;
+.about-intro {
+  font-size: 1.2rem;
+  line-height: 1.8;
   margin-bottom: 2rem;
-  color: var(--text-light);
+  color: var(--text-color);
 }
 
-.about-points {
+.about-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
-.point {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+.about-card {
+  text-align: left;
   padding: 1.5rem;
   background: var(--bg-color);
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: var(--shadow);
   transition: var(--transition);
 }
 
-.point:hover {
+.about-card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-hover);
 }
 
-.point i {
+.about-card-title {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about-card-title i {
   font-size: 1.5rem;
   color: var(--primary-color);
   min-width: 24px;
+}
+
+.about-philosophy {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: var(--bg-color);
+  border-radius: 16px;
+  border-left: 4px solid var(--primary-color);
+  text-align: left;
+}
+
+.about-philosophy-title {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.about-philosophy-text {
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-color);
 }
 
 .skills-grid {
@@ -418,6 +476,12 @@ section.animate {
   width: 60px;
   height: 60px;
   margin-bottom: 1rem;
+}
+
+.skill-card-text {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-top: 0.5rem;
 }
 
 .skill-card h3 {
@@ -484,6 +548,21 @@ section.animate {
   margin-bottom: 1rem;
 }
 
+.project-tags {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.project-tag {
+  background: var(--primary-color);
+  color: #ffffff;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
 .project-link {
   display: inline-flex;
   align-items: center;
@@ -504,10 +583,20 @@ section.animate {
   text-align: center;
 }
 
-.contact-content p {
+.contact-lead {
   font-size: 1.1rem;
   margin-bottom: 2rem;
   color: var(--text-light);
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-info p {
+  color: var(--text-light);
+  margin-bottom: 0.75rem;
 }
 
 .contact-links {
@@ -543,6 +632,16 @@ section.animate {
 }
 
 .footer p {
+  color: var(--text-light);
+}
+
+.footer-highlight {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.footer-note {
+  margin-top: 1rem;
   color: var(--text-light);
 }
 
@@ -590,7 +689,7 @@ section.animate {
     font-size: 2rem;
   }
 
-  .about-points {
+  .about-grid {
     grid-template-columns: 1fr;
   }
 
