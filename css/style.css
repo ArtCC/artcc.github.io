@@ -181,7 +181,7 @@ img {
   .nav-menu {
     position: fixed;
     left: -100vw;
-    top: 70px;
+    top: 60px;
     flex-direction: column;
     background: var(--bg-color);
     width: 100vw;
@@ -189,6 +189,7 @@ img {
     transition: var(--transition);
     box-shadow: var(--shadow);
     padding: 2rem 0;
+    margin: 0;
   }
 
   .nav-menu.active {
