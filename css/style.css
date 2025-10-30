@@ -706,6 +706,10 @@ section.animate {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    padding-top: 80px;
+  }
+
   .hero-title {
     font-size: 2rem;
     word-wrap: break-word;
@@ -765,6 +769,10 @@ section.animate {
 @media (max-width: 480px) {
   .container {
     padding: 0 15px;
+  }
+
+  .hero {
+    padding-top: 80px;
   }
 
   .hero-title {
