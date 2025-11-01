@@ -95,9 +95,7 @@
 
 ## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/arturocarretero/)
-- [X](https://twitter.com/artcc)
-- [YouTube](https://www.youtube.com/@artcc)
+- [X](https://x.com/_artcc_)
 
 ## License
 

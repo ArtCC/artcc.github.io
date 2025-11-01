@@ -3,7 +3,6 @@ const typed = new Typed('.typing', {
     'Arturo. Hello, World!',
     'a freelance developer for Apple devices',
     'part-time indie game dev at home',
-    'occasionally post development videos on Udemy and YouTube',
     'a scuba diver'
   ],
   loop: true,
