@@ -22,9 +22,8 @@
 
 ## About Me
 
-- 👨🏻‍💻 Indie Apple developer
-- 🚀 Turning ideas into apps to achieve full indie life
-- 💡 Coding, creating & sharing the process
+- 👨🏻‍💻 Apple software developer
+- 🚀 Building apps · sharing the journey
 - 🤿 Scuba diver
 
 ## Technologies
