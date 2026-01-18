@@ -1,7 +1,7 @@
 const typed = new Typed('.typing', {
   strings: [
     'Arturo. Hello, World!',
-    'a Senior Apple Platform Developer',
+    'a Senior Apple Software Developer',
     'part-time indie game dev at home',
     'a scuba diver'
   ],
