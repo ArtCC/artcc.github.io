@@ -18,11 +18,11 @@
 
 ---
 
-<p align="left">My name is Arturo and I'm an Apple device developer based in Madrid, Spain.</p>
+<p align="left">My name is Arturo and I'm an Apple software developer based in Madrid, Spain.</p>
 
 ## About Me
 
-- 👨🏻‍💻 Apple software developer
+- 👨🏻‍💻 Apple Software Developer
 - 🚀 Building apps · sharing the journey
 - 🤿 Scuba diver
 
