@@ -32,9 +32,23 @@ When I'm not coding, you'll find me underwater exploring the ocean depths 🌊
 
 ### Developer Tools
 
+• 🤖 [**Auto Commit AI**](https://github.com/ArtCC/auto-commit-ai) - AI-powered tool that generates meaningful commit messages automatically. Never write "fix stuff" again.
+
 • 📊 [**GitHub Contributions**](https://marketplace.elgato.com/product/github-contributions-e44e9f6c-e85a-4889-acc5-d666133671e4) - Stream Deck plugin that shows your GitHub contributions in real time. Keep your coding streak visible.
 
 • 🌍 [**Localizapp for Xcode**](https://localizappforxcode.app) - Powerful tool to manage localization for iOS projects. Makes working with multiple languages a breeze.
+
+• 🔍 [**MacScan**](https://github.com/ArtCC/macscan) - macOS security scanner to detect vulnerabilities and misconfigurations. Keep your Mac secure.
+
+### Telegram Bots
+
+• 🖥️ [**Linux Server Admin Bot**](https://github.com/ArtCC/linux-server-admin-bot) - Telegram bot for managing and monitoring your Linux servers remotely. Execute commands and get system status on the go.
+
+• 📮 [**PostFlow Bot**](https://github.com/ArtCC/postflow-telegram-bot) - Streamline your posting workflow with automated content delivery through Telegram.
+
+• ⏰ [**Scheduled Tasks Bot**](https://github.com/ArtCC/scheduled-tasks-telegram-bot) - Automate your workflow with scheduled task execution through Telegram. Set it and forget it.
+
+• 📥 [**Send Torrent Bot**](https://github.com/ArtCC/send-torrent-telegram-bot) - Send torrent files directly to your download client via Telegram. Remote torrent management made simple.
 
 ## Tech Stack
 
