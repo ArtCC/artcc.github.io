@@ -44,6 +44,8 @@ When I'm not coding, you'll find me underwater exploring the ocean depths 🌊
 
 • 🖥️ [**Linux Server Admin Bot**](https://github.com/ArtCC/linux-server-admin-bot) - Telegram bot for managing and monitoring your Linux servers remotely. Execute commands and get system status on the go.
 
+• 🧠 [**Ollama Bot**](https://github.com/ArtCC/ollama-telegram-bot) - Chat with local AI models through Telegram. Run Ollama models privately without cloud dependencies.
+
 • 📮 [**PostFlow Bot**](https://github.com/ArtCC/postflow-telegram-bot) - Streamline your posting workflow with automated content delivery through Telegram.
 
 • ⏰ [**Scheduled Tasks Bot**](https://github.com/ArtCC/scheduled-tasks-telegram-bot) - Automate your workflow with scheduled task execution through Telegram. Set it and forget it.
