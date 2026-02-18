@@ -26,7 +26,7 @@ When I'm not coding, you'll find me underwater exploring the ocean depths 🌊
 
 • 🤿 [**ScubaPlan**](https://scubaplan-web.vercel.app) - Dive planner for recreational divers. Plan your dives safely with decompression calculations and dive logs.
 
-• 📢 [**Votice**](https://votice.app) - Complete solution to collect, manage and act on user feedback for your apps. Built for indie developers who care about their users.
+• 📢 [**Votice**](https://votice-web.vercel.app) - Complete solution to collect, manage and act on user feedback for your apps. Built for indie developers who care about their users.
 
 • 🔌 [**Votice SDK**](https://github.com/ArtCC/votice-sdk) - Native Swift SDK for user feedback, suggestion boards, and voting mechanisms. Clean UI, simple setup, HMAC authentication.
 
@@ -36,7 +36,7 @@ When I'm not coding, you'll find me underwater exploring the ocean depths 🌊
 
 • 📊 [**GitHub Contributions**](https://marketplace.elgato.com/product/github-contributions-e44e9f6c-e85a-4889-acc5-d666133671e4) - Stream Deck plugin that shows your GitHub contributions in real time. Keep your coding streak visible.
 
-• 🌍 [**Localizapp for Xcode**](https://localizappforxcode.app) - Powerful tool to manage localization for iOS projects. Makes working with multiple languages a breeze.
+• 🌍 [**Localizapp for Xcode**](https://localizapp-web.vercel.app) - Powerful tool to manage localization for iOS projects. Makes working with multiple languages a breeze.
 
 • 🔍 [**MacScan**](https://github.com/ArtCC/macscan) - macOS security scanner to detect vulnerabilities and misconfigurations. Keep your Mac secure.
 
