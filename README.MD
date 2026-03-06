@@ -36,9 +36,13 @@ When I'm not coding, you'll find me underwater exploring the ocean depths 🌊
 
 • 📊 [**GitHub Contributions**](https://marketplace.elgato.com/product/github-contributions-e44e9f6c-e85a-4889-acc5-d666133671e4) - Stream Deck plugin that shows your GitHub contributions in real time. Keep your coding streak visible.
 
+• 🏠 [**Homelinks**](https://github.com/ArtCC/homelinks) - Modern self-hosted dashboard to organize Docker services with favorites, categories, search, backups and secure login.
+
 • 🔍 [**MacScan**](https://github.com/ArtCC/macscan) - macOS security scanner to detect vulnerabilities and misconfigurations. Keep your Mac secure.
 
 ### Telegram Bots
+
+• 📡 [**ServerWatch AI Bot**](https://github.com/ArtCC/serverwatch-ai-bot) - Telegram bot for server monitoring with AI chat. Fetches live Glances metrics and works with local Ollama or cloud models.
 
 • 🖥️ [**Linux Server Admin Bot**](https://github.com/ArtCC/linux-server-admin-bot) - Telegram bot for managing and monitoring your Linux servers remotely. Execute commands and get system status on the go.
 
