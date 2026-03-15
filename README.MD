@@ -38,6 +38,8 @@ When I'm not coding, you'll find me underwater exploring the ocean depths 🌊
 
 • 🏠 [**Homelinks**](https://github.com/ArtCC/homelinks) - Modern self-hosted dashboard to organize Docker services with favorites, categories, search, backups and secure login.
 
+• ⌨️ [**Keychron Launcher Wrapper**](https://github.com/ArtCC/keychron-launcher-wrapper) - Minimal Electron desktop wrapper for Keychron Launcher with WebHID support to configure compatible keyboards over USB.
+
 • 🔍 [**MacScan**](https://github.com/ArtCC/macscan) - macOS security scanner to detect vulnerabilities and misconfigurations. Keep your Mac secure.
 
 ### Telegram Bots
