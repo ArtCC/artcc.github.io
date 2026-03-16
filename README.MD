@@ -22,7 +22,7 @@ When I'm not coding, you'll find me underwater exploring the ocean depths 🌊
 
 • 🌍 [**Localizapp for Xcode**](https://localizapp-web.vercel.app) - Powerful tool to manage localization for iOS projects. Makes working with multiple languages a breeze.
 
-• 📱 [**MuseumAI**](https://museumai-web.vercel.app) - Discover museums and art using AI. Your personal guide to the world's cultural treasures.
+• 📱 [**MuseumAI**](https://www.arturocarreterocalvo.com/MuseumAI-app) - Discover museums and art using AI. Your personal guide to the world's cultural treasures.
 
 • 🤿 [**ScubaPlan**](https://scubaplan-web.vercel.app) - Dive planner for recreational divers. Plan your dives safely with decompression calculations and dive logs.
 
