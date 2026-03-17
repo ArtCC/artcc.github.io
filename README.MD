@@ -24,7 +24,7 @@ When I'm not coding, you'll find me underwater exploring the ocean depths 🌊
 
 • 📱 [**MuseumAI**](https://www.arturocarreterocalvo.com/MuseumAI-app) - Discover museums and art using AI. Your personal guide to the world's cultural treasures.
 
-• 🤿 [**ScubaPlan**](https://scubaplan-web.vercel.app) - Dive planner for recreational divers. Plan your dives safely with decompression calculations and dive logs.
+• 🤿 [**ScubaPlan**](https://www.arturocarreterocalvo.com/scubaplan) - Dive planner for recreational divers. Plan your dives safely with decompression calculations and dive logs.
 
 • 📢 [**Votice**](https://votice-web.vercel.app) - Complete solution to collect, manage and act on user feedback for your apps. Built for indie developers who care about their users.
 
