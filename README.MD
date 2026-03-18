@@ -20,7 +20,7 @@ When I'm not coding, you'll find me underwater exploring the ocean depths 🌊
 
 ### Apps (iOS, iPadOS, macOS or tvOS)
 
-• 🌍 [**Localizapp for Xcode**](https://localizapp-web.vercel.app) - Powerful tool to manage localization for iOS projects. Makes working with multiple languages a breeze.
+• 🌍 [**Localizapp for Xcode**](https://www.arturocarreterocalvo.com/localizapp) - Powerful tool to manage localization for iOS projects. Makes working with multiple languages a breeze.
 
 • 📱 [**MuseumAI**](https://www.arturocarreterocalvo.com/MuseumAI-app) - Discover museums and art using AI. Your personal guide to the world's cultural treasures.
 
