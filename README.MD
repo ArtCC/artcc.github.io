@@ -26,7 +26,7 @@ When I'm not coding, you'll find me underwater exploring the ocean depths 🌊
 
 • 🤿 [**ScubaPlan**](https://www.arturocarreterocalvo.com/scubaplan) - Dive planner for recreational divers. Plan your dives safely with decompression calculations and dive logs.
 
-• 📢 [**Votice**](https://votice-web.vercel.app) - Complete solution to collect, manage and act on user feedback for your apps. Built for indie developers who care about their users.
+• 📢 [**Votice**](https://votice.app) - Complete solution to collect, manage and act on user feedback for your apps. Built for indie developers who care about their users.
 
 • 🔌 [**Votice SDK**](https://github.com/ArtCC/votice-sdk) - Native Swift SDK for user feedback, suggestion boards, and voting mechanisms. Clean UI, simple setup, HMAC authentication.
 
