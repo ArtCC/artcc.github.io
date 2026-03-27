@@ -606,6 +606,58 @@ section.animate {
   gap: 1rem;
 }
 
+.project-card--github {
+  grid-column: 1 / -1;
+  background: var(--gradient);
+}
+
+.project-card--github-inner {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 2.5rem;
+  flex-wrap: wrap;
+}
+
+.project-card--github-icon {
+  font-size: 3rem;
+  color: #ffffff;
+  flex-shrink: 0;
+}
+
+.project-card--github-body {
+  flex: 1;
+  min-width: 200px;
+}
+
+.project-card--github-body h3 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 0.4rem;
+}
+
+.project-card--github-body p {
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0;
+}
+
+.project-card--github-link {
+  color: #ffffff;
+  font-weight: 600;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  padding: 0.6rem 1.4rem;
+  border-radius: 50px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: var(--transition);
+}
+
+.project-card--github-link:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #ffffff;
+  gap: 1rem;
+}
+
 .contact-content {
   max-width: 600px;
   margin: 0 auto;
