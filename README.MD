@@ -58,6 +58,10 @@ When I'm not coding, you'll find me underwater exploring the ocean depths 🌊
 
 • 📥 [**Send Torrent Bot**](https://github.com/ArtCC/send-torrent-telegram-bot) - Send torrent files directly to your download client via Telegram. Remote torrent management made simple.
 
+### Web Applications
+
+• 🌐 [**FreeLingo**](https://github.com/ArtCC/freelingo) - Open source, self-hosted web application for learning languages with AI. Powered by Ollama, it evaluates your CEFR level, generates a personalized study plan and guides you through grammar, vocabulary, reading comprehension and writing lessons.
+
 ## Connect
 
 • [GitHub](https://github.com/ArtCC) - Check out my open source work
