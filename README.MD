@@ -60,7 +60,7 @@ When I'm not coding, you'll find me underwater exploring the ocean depths 🌊
 
 ### Web Applications
 
-• 🌐 [**FreeLingo**](https://github.com/ArtCC/freelingo) - Open source, self-hosted web application for learning languages with AI. Powered by Ollama, it evaluates your CEFR level, generates a personalized study plan and guides you through grammar, vocabulary, reading comprehension and writing lessons.
+• 🌐 [**FreeLingo**](https://github.com/ArtCC/freelingo) - Open source web application for learning English with AI. Works with local models via Ollama or cloud providers like OpenAI, Anthropic and DeepSeek. Evaluates your CEFR level, generates a personalized study plan and guides you through grammar, vocabulary, reading comprehension and writing lessons. Includes text chat with an AI tutor and real-time voice conversations with AI.
 
 ## Connect
 
