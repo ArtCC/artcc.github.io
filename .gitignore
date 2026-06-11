@@ -67,9 +67,6 @@ fastlane/test_output
 
 iOSInjectionProject/
 
-# Custom library
-dnie-nfc-iOS
-
 # J2ObjC
 j2objc
 
