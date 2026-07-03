@@ -1,14 +1,22 @@
-const typed = new Typed('.typing', {
-  strings: [
-    'Arturo. Hello, World!',
-    'a Senior Apple Software Developer',
-    'part-time indie game dev at home',
-    'a scuba diver'
-  ],
-  loop: true,
-  typeSpeed: 75,
-  backSpeed: 75
-});
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const typingEl = document.querySelector('.typing');
+document.documentElement.classList.replace('no-js', 'js');
+
+if (typingEl && reduceMotion) {
+  typingEl.textContent = 'a Senior Apple Software Developer';
+} else if (typingEl && window.Typed) {
+  new Typed('.typing', {
+    strings: [
+      'Arturo. Hello, World!',
+      'a Senior Apple Software Developer',
+      'part-time indie game dev at home',
+      'a scuba diver'
+    ],
+    loop: true,
+    typeSpeed: 75,
+    backSpeed: 75
+  });
+}
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (event) {
@@ -61,22 +69,55 @@ window.addEventListener('scroll', () => {
   }
 });
 
-const observerOptions = {
-  threshold: 0.1,
-  rootMargin: '0px 0px -50px 0px'
+const sections = document.querySelectorAll('section');
+const sectionNavLinks = [...document.querySelectorAll('.nav-link[href^="#"]')];
+
+const updateActiveNavLink = id => {
+  sectionNavLinks.forEach(link => {
+    link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+  });
 };
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('animate');
-    }
-  });
-}, observerOptions);
+if ('IntersectionObserver' in window && !reduceMotion) {
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
 
-document.querySelectorAll('section').forEach(section => {
-  observer.observe(section);
-});
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate');
+      }
+    });
+  }, observerOptions);
+
+  sections.forEach(section => {
+    section.classList.add('reveal-on-scroll');
+    observer.observe(section);
+  });
+} else {
+  sections.forEach(section => {
+    section.classList.add('animate');
+  });
+}
+
+if ('IntersectionObserver' in window && sectionNavLinks.length > 0) {
+  const navObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        updateActiveNavLink(entry.target.id);
+      }
+    });
+  }, {
+    rootMargin: '-35% 0px -55% 0px',
+    threshold: 0
+  });
+
+  sections.forEach(section => {
+    navObserver.observe(section);
+  });
+}
 
 const currentYearEl = document.getElementById('current-year');
 if (currentYearEl) {
